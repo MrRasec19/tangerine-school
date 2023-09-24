@@ -13,7 +13,7 @@ export const Navbar = () => {
             
             <div className='space-x-5 text-2xl'>
                 <NavLink 
-                    to="/home"
+                    to="/"
                     className={({ isActive, isPending }) =>
                         isPending ? "font-normal" : isActive ? "font-bold text-orange-400" : ""
                     }
