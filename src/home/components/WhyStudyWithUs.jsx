@@ -3,7 +3,7 @@ import WhyStudyCards from './WhyStudyCards'
 
 export const WhyStudyWithUs = () => {
   return (
-    <article className='w-full bg-white mt-5 p-8'>
+    <article className='w-full bg-white my-10 p-8'>
       <div className='flex justify-center mb-6'>
         <h2 className='text-4xl'>¿Por qué estudiar en Tangerine School?</h2>
       </div>
