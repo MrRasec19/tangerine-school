@@ -1,6 +1,7 @@
 import React from 'react'
 import { IoIosArrowDown } from "react-icons/io";
 import IconTangerine from "../../assets/icono-tangerine.svg?react";
+import Tangerino from "../../assets/tangerino-grande-tangerine.svg?react";
 import '../styles/home.css'
 
 export const TangerineBanner = () => {
@@ -14,6 +15,7 @@ export const TangerineBanner = () => {
         </div>
         <button className='bg-orange-thiny px-9 py-6 mt-16 rounded-full text-center'><span className='text-orange font-bold text-3xl text-center'>Contáctanos</span></button>
         <h3 className='text-orange font-bold text-3xl flex flex-col items-center mt-3'>Quiero saber más<IoIosArrowDown className='text-orange font-bold text-3xl' /></h3>
+        <Tangerino className="tangerino" />
     </article>
   )
 }

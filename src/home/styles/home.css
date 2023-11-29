@@ -6,3 +6,10 @@
 article{
     height: 45rem;
 }
+.tangerino{
+    position: absolute;
+    transform: scale(.6);
+    left: -18rem;
+    right: 89rem;
+    top: 9rem;
+}
