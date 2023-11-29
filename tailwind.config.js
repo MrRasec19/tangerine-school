@@ -11,6 +11,7 @@ export default {
         'orange': '#FD752D',
         'yellow': '#F4D47D',
         'blue-strong': '#00274E',
+        'orange-thiny': '#FFC6B6',
       }
     },
   },
