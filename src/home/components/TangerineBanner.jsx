@@ -14,7 +14,7 @@ export const TangerineBanner = () => {
           <IconTangerine className="w-14 h-14 iconTangerine"/>
         </div>
         <button className='bg-orange-thiny px-9 py-6 mt-16 rounded-full text-center'><span className='text-orange font-bold text-3xl text-center'>Contáctanos</span></button>
-        <h3 className='text-orange font-bold text-3xl flex flex-col items-center mt-3'>Quiero saber más<IoIosArrowDown className='text-orange font-bold text-3xl' /></h3>
+        <h3 className='text-orange font-bold text-3xl flex flex-col items-center mt-3'><a href="#">Quiero saber más</a><IoIosArrowDown className='text-orange font-bold text-3xl' /></h3>
         <Tangerino className="tangerino" />
     </article>
   )

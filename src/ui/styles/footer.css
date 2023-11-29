@@ -1,0 +1,9 @@
+footer{
+    background-image: url(../../assets/fondo-azul-tangerine.jpg);
+}
+.iconTangerineFooter{
+    transform: scale(2.5);
+    position: absolute;
+    right: 14rem;
+    top: -2rem;
+}
