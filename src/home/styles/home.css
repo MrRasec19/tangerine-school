@@ -16,3 +16,22 @@
 #white-shine{
     transform: scale(2.5);
 }
+.middle-note{
+    transform: rotate(4deg);
+}
+.content-text-first-note{
+    position: relative;
+    left: 9rem;
+    bottom: 16rem;
+}
+.content-text-second-note{
+    position: relative;
+    left: 9rem;
+    bottom: 16rem;
+    transform: rotate(4deg);
+}
+.content-text-third-note{
+    position: relative;
+    right: -9rem;
+    bottom: 16rem;
+}
