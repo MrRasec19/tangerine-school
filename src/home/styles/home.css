@@ -3,7 +3,7 @@
     right: 22rem;
     position: unset;
 }
-article{
+#home-section{
     height: 45rem;
 }
 .tangerino{
@@ -12,4 +12,7 @@ article{
     left: -18rem;
     right: 89rem;
     top: 9rem;
+}
+#white-shine{
+    transform: scale(2.5);
 }

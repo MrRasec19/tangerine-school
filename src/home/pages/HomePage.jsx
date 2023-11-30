@@ -1,12 +1,13 @@
-import React from 'react'
+import { OurCompromise } from '../components/OurCompromise'
 import { TangerineBanner } from '../components/TangerineBanner'
-import { WhyStudyWithUs } from '../components/WhyStudyWithUs'
+// import { WhyStudyWithUs } from '../components/WhyStudyWithUs'
 
 export const HomePage = () => {
   return (
     <main>
       <TangerineBanner />
-      <WhyStudyWithUs />
+      <OurCompromise />
+      {/* <WhyStudyWithUs /> */}
     </main>
   )
 }

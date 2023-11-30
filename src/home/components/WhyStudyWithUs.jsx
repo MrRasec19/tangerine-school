@@ -1,4 +1,3 @@
-import React from 'react'
 import WhyStudyCards from './WhyStudyCards'
 
 export const WhyStudyWithUs = () => {
