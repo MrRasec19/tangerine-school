@@ -16,22 +16,16 @@
 #white-shine{
     transform: scale(2.5);
 }
-.middle-note{
-    transform: rotate(4deg);
-}
-.content-text-first-note{
+.content-card{
     position: relative;
     left: 9rem;
     bottom: 16rem;
 }
-.content-text-second-note{
-    position: relative;
-    left: 9rem;
-    bottom: 16rem;
-    transform: rotate(4deg);
+.card-spin{
+    transform: rotate(0deg);
+    transition: .5s;
 }
-.content-text-third-note{
-    position: relative;
-    right: -9rem;
-    bottom: 16rem;
+.card-spin:hover{
+    transform: rotate(5deg);
+    transition: .5s;
 }
