@@ -3,7 +3,7 @@ import WhiteShine from "../../assets/brillito-blanco-tangerine.svg?react";
 
 export const OurCompromise = () => {
   return (
-    <article className='bg-yellow px-10 py-40 flex items-center' id='our-compromises'>
+    <article className='bg-yellow px-10 py-40 flex items-center justify-center' id='our-compromises'>
       <div className="grid grid-cols-12">
         <div className="col-start-11 col-end-12">
             <WhiteShine id="white-shine" className="w-14 h-14 text-white"/>

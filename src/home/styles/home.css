@@ -1,31 +1,40 @@
-.iconTangerine{
+.iconTangerine {
     transform: scale(2.5);
     right: 22rem;
     position: unset;
 }
-#home-section{
+#home-section {
     height: 45rem;
 }
-.tangerino{
+.tangerino {
     position: absolute;
     transform: scale(.6);
     left: -18rem;
     right: 89rem;
     top: 9rem;
 }
-#white-shine{
+#white-shine {
     transform: scale(2.5);
 }
-.content-card{
+.content-card {
     position: relative;
     left: 9rem;
     bottom: 16rem;
 }
-.card-spin{
+.card-spin {
     transform: rotate(0deg);
     transition: .5s;
 }
-.card-spin:hover{
+.card-spin:hover {
     transform: rotate(5deg);
     transition: .5s;
+}
+.cat-card-img {
+    height: 190%;
+}
+.cat-card-contain {
+    height: 50%;
+}
+.cat-card {
+    transform: scale(.7);
 }
