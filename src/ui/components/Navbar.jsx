@@ -1,4 +1,3 @@
-import React from 'react'
 import Logo from "../../assets/LOGO-tangerine.svg?react";
 import WhatsappLogo from "../../assets/whatsapp-tangerine.svg?react";
 // import { Link, NavLink, useNavigate } from 'react-router-dom';
@@ -17,7 +16,7 @@ export const Navbar = () => {
         <a href="#why-with-us" className='text-xl font-bold text-blue-strong'>Contacto</a>
         <a href="#modalities" className='text-xl font-bold text-blue-strong'>Modalidades</a>
         <a href="#FAQ" className='text-xl font-bold text-blue-strong'>FAQ</a>
-        <a href="#whatsapp" className="text-orange">
+        <a href="https://api.whatsapp.com/send?phone=+526621998313&text=Hola Mundo" target="_blank" rel="noopener noreferrer" className="text-orange">
             <WhatsappLogo className="w-20 h-100 text-orange" />
         </a>
 
