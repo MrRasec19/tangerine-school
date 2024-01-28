@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Note from "../../assets/nota-tangerine.svg?react";
 
 export const ModalitiesCard = ({ title, paragraph }) => {
@@ -10,4 +11,9 @@ export const ModalitiesCard = ({ title, paragraph }) => {
         </div>
     </div>
   )
+}
+
+ModalitiesCard.propTypes = {
+  title: PropTypes.string,
+  paragraph: PropTypes.string
 }

@@ -26,6 +26,7 @@
     transition: .5s;
 }
 .card-spin:hover {
+    cursor: pointer;
     transform: rotate(5deg);
     transition: .5s;
 }
@@ -37,4 +38,14 @@
 }
 .cat-card {
     transform: scale(.7);
+    opacity: 1;
+    transition: 1s;
+}
+.cat-card:hover {
+    cursor: pointer;
+    opacity: 0;
+    transition: .4s;
+}
+#tangerine-window {
+    display: none;
 }
