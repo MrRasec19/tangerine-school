@@ -49,3 +49,18 @@
 #tangerine-window {
     display: none;
 }
+.accordion {
+    background-color: #00274E !important;
+    border-bottom: solid 2px #FFC6B6;
+}
+.accordion-summary {
+    color: #FD752D !important;
+}
+.accordion-details {
+    color: #FFC6B6 !important;
+    width: 100% !important;
+}
+.expanded-icon {
+    color: #FD752D;
+    transform: rotate(270deg);
+}

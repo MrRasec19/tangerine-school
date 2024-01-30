@@ -1,4 +1,3 @@
-import React from 'react'
 import '../styles/footer.css'
 import IconTangerine from "../../assets/icono-tangerine.svg?react";
 import { ContactInfo } from './ContactInfo';

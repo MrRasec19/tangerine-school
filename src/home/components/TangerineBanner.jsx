@@ -1,4 +1,3 @@
-import React from 'react'
 import { IoIosArrowDown } from "react-icons/io";
 import Tangerino from "../../assets/tangerino-grande-tangerine.svg?react";
 import '../styles/home.css'

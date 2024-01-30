@@ -1,7 +1,4 @@
-import { TangerineBanner } from '../components/TangerineBanner'
-import { WhyStudyWithUs } from '../components/WhyStudyWithUs'
-import { Modalities } from '../components/Modalities'
-import { OurCompromise } from '../components/OurCompromise'
+import { TangerineBanner, WhyStudyWithUs, Modalities, OurCompromise, FrequentlyQuestions } from '../index'
 
 export const HomePage = () => {
   return (
@@ -10,6 +7,7 @@ export const HomePage = () => {
       <WhyStudyWithUs />
       <OurCompromise />
       <Modalities />
+      <FrequentlyQuestions />
     </main>
   )
 }
