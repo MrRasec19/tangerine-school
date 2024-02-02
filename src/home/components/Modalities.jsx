@@ -9,8 +9,8 @@ export const Modalities = () => {
                 Modalidades
             </h3>
         </div>
-        <div className="col-start-4 col-end-11 mt-3 mb-10">
-            <p id="paragraph" className="w-full text-blue-strong text-2xl font-semibold text-left">
+        <div className="col-start-4 col-end-10 mt-3 mb-10">
+            <p id="paragraph" className="w-full text-blue-strong text-2xl font-semibold text-center">
             Tenemos tres modalidades diferentes para que elijas la que más te convenga:
             </p>
         </div>
