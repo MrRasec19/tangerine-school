@@ -7,7 +7,7 @@ import { TangerineRoseButton } from "./TangerineRoseButton";
 
 export const FollowUs = () => {
   return (
-    <article className='bg-rose-thiny px-10 py-40 flex items-center justify-center' id='our-compromises'>
+    <article className='bg-rose-thiny px-10 py-40 flex items-center justify-center' id='follow-us'>
       <div className="grid grid-cols-12">
         <div className="col-start-11 col-end-12">
             <OrangeShine id="orange-shine" className="w-14 h-14 text-white"/>

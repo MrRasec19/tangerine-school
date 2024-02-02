@@ -5,7 +5,7 @@ import { ScheduleInfo } from './ScheduleInfo';
 
 export const Footer = () => {
   return (
-    <footer className='w-full bg-white absolute bottom-auto '>
+    <footer className='w-full bg-white absolute bottom-auto'>
       <IconTangerine className="w-14 h-14 iconTangerineFooter"/>
       <div className='grid grid-cols-2 grid-rows-2 pt-20'>
         <ContactInfo />

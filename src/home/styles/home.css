@@ -1,3 +1,7 @@
+#students-opinions{
+    background-image: url(../../assets/fondo-rosa-tangerine.jpg);
+    background-size: cover;
+}
 .iconTangerine {
     transform: scale(2.5);
     right: 22rem;
