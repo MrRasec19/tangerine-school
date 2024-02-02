@@ -1,4 +1,4 @@
-import { TangerineBanner, WhyStudyWithUs, Modalities, OurCompromise, FrequentlyQuestions } from '../index'
+import { TangerineBanner, WhyStudyWithUs, Modalities, OurCompromise, FrequentlyQuestions, FollowUs } from '../index'
 
 export const HomePage = () => {
   return (
@@ -8,6 +8,7 @@ export const HomePage = () => {
       <OurCompromise />
       <Modalities />
       <FrequentlyQuestions />
+      <FollowUs />
     </main>
   )
 }

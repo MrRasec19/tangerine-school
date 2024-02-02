@@ -7,7 +7,7 @@ export const FrequentlyQuestions = () => {
     <article className='bg-blue-strong px-10 py-40' id='modalities'>
       <div className="flex flex-col justify-center items-center">
         <div className="mb-9">
-            <h3 id="title" className="text-orange text-5xl font-bold">
+            <h3 id="title" className="text-orange text-6xl font-bold">
                 Frequently asked questions
             </h3>
         </div>

@@ -9,7 +9,7 @@ export const OurCompromise = () => {
             <WhiteShine id="white-shine" className="w-14 h-14 text-white"/>
         </div>
         <div className="col-start-4 col-end-9">
-            <h3 id="title" className="text-orange text-4xl w-full font-bold">
+            <h3 id="title" className="text-orange text-6xl w-full font-bold">
                 Nuestro Compromiso
             </h3>
         </div>

@@ -8,8 +8,8 @@ export const WhyStudyWithUs = () => {
         <div className="col-start-11 col-end-12 row-start-1">
             <WhiteShine id="white-shine" className="w-14 h-14 text-white"/>
         </div>
-        <div className="col-start-5 col-end-9 row-start-1">
-            <h3 id="title" className="text-orange text-4xl w-full font-bold">
+        <div className="col-start-4 col-end-10 row-start-1">
+            <h3 id="title" className="text-orange text-6xl w-full font-bold">
               ¿Por qué estudiar con nosotros?
             </h3>
         </div>

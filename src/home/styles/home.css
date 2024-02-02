@@ -13,8 +13,8 @@
     right: 89rem;
     top: 9rem;
 }
-#white-shine {
-    transform: scale(2.5);
+#white-shine, #orange-shine {
+    transform: scale(3.5);
 }
 .content-card {
     position: relative;
@@ -63,4 +63,7 @@
 .expanded-icon {
     color: #FD752D;
     transform: rotate(270deg);
+}
+.social-media-icons{
+    width: 100px;
 }
