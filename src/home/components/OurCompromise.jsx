@@ -10,7 +10,7 @@ export const OurCompromise = () => {
         </div>
         <div className="col-start-4 col-end-9">
             <h3 id="title" className="text-orange text-6xl w-full font-bold">
-                Nuestro Compromiso
+                Nuestro compromiso
             </h3>
         </div>
         <div className="col-start-4 col-end-11 py-10">

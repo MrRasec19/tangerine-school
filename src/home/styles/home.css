@@ -71,3 +71,14 @@
 .social-media-icons{
     width: 100px;
 }
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+#opinions-slide {
+    animation: 17s slide infinite linear;
+}
