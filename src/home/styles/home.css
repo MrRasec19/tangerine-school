@@ -2,14 +2,17 @@
     background-image: url(../../assets/fondo-rosa-tangerine.jpg);
     background-size: cover;
 }
+
 .iconTangerine {
     transform: scale(2.5);
     right: 22rem;
     position: unset;
 }
+
 #home-section {
     height: 45rem;
 }
+
 .tangerino {
     position: absolute;
     transform: scale(.6);
@@ -17,42 +20,52 @@
     right: 89rem;
     top: 9rem;
 }
+
 #white-shine, #orange-shine {
     transform: scale(3.5);
 }
+
 .content-card {
     position: relative;
     left: 9rem;
     bottom: 16rem;
 }
+
 .card-spin {
     transform: rotate(0deg);
     transition: .5s;
 }
+
 .card-spin:hover {
     cursor: pointer;
     transform: rotate(5deg);
     transition: .5s;
 }
+
 .cat-card-img {
     height: 190%;
 }
+
 .cat-card-contain {
     height: 50%;
 }
+
 .cat-card {
     transform: scale(.7);
     opacity: 1;
     transition: 1s;
 }
+
 .cat-card:hover {
     cursor: pointer;
     opacity: 0;
     transition: .4s;
 }
+
 #tangerine-window {
     display: none;
 }
+
 .accordion {
     background-color: #00274E !important;
     border-bottom: solid 2px #FFC6B6;
@@ -60,17 +73,21 @@
 .accordion-summary {
     color: #FD752D !important;
 }
+
 .accordion-details {
     color: #FFC6B6 !important;
     width: 100% !important;
 }
+
 .expanded-icon {
     color: #FD752D;
     transform: rotate(270deg);
 }
+
 .social-media-icons{
     width: 100px;
 }
+
 @keyframes slide {
     from {
         transform: translateX(0);
@@ -79,6 +96,41 @@
         transform: translateX(-100%);
     }
 }
-#opinions-slide {
-    animation: 17s slide infinite linear;
+
+#content{
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+#content:before, #content:after {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+#content:before{
+    left: 0;
+    background: linear-gradient(to left, rgba(255,255,255,0), #ffc9b4);
+}
+
+#content:after{
+    right: 0;
+    background: linear-gradient(to right, rgba(255,255,255,0), #ffc9b4);
+}
+
+/* #content:hover .opinions-content {
+    animation-play-state: paused;
+} */
+
+.opinions-slide{
+    display: flex;
+}
+
+.opinions-content {
+    display: inline-block;
+    animation: 35s slide infinite linear;
 }
