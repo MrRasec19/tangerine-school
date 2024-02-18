@@ -26,7 +26,7 @@ export const opinons = [
     {
         id: 4,
         opinion: 'lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore',
-        userName: 'user',
+        userName: 'Ricardo',
         userSocialName: '@user',
         city: 'city',
         state: 'state'
@@ -34,7 +34,7 @@ export const opinons = [
     {
         id: 5,
         opinion: 'lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore',
-        userName: 'Unknow',
+        userName: 'Flor',
         userSocialName: '@Unknow',
         city: 'Unknow',
         state: 'Unknow'
@@ -42,7 +42,7 @@ export const opinons = [
     {
         id: 6,
         opinion: 'lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore',
-        userName: 'Unknow',
+        userName: 'Juan Perez',
         userSocialName: '@Unknow',
         city: 'Unknow',
         state: 'Unknow'
@@ -50,7 +50,7 @@ export const opinons = [
     {
         id: 7,
         opinion: 'lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore',
-        userName: 'Unknow',
+        userName: 'Carlos',
         userSocialName: '@Unknow',
         city: 'Unknow',
         state: 'Unknow'
@@ -58,7 +58,7 @@ export const opinons = [
     {
         id: 8,
         opinion: 'lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore',
-        userName: 'Unknow',
+        userName: 'Shakira',
         userSocialName: '@Unknow',
         city: 'Unknow',
         state: 'Unknow'
@@ -66,7 +66,7 @@ export const opinons = [
     {
         id: 9,
         opinion: 'lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore',
-        userName: 'Unknow',
+        userName: 'Amazon',
         userSocialName: '@Unknow',
         city: 'Unknow',
         state: 'Unknow'

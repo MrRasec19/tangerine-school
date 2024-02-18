@@ -12,10 +12,10 @@ export const Navbar = () => {
             <Logo className="w-40 h-100"/>
         </div>
         
-        <a href="#home-section" className='text-xl font-bold text-blue-strong'>Método</a>
-        <a href="#why-with-us" className='text-xl font-bold text-blue-strong'>Contacto</a>
-        <a href="#modalities" className='text-xl font-bold text-blue-strong'>Modalidades</a>
-        <a href="#FAQ" className='text-xl font-bold text-blue-strong'>FAQ</a>
+        <a href="#home-section" className='text-2xl font-bold text-blue-strong'>Método</a>
+        <a href="#why-with-us" className='text-2xl font-bold text-blue-strong'>Contacto</a>
+        <a href="#modalities" className='text-2xl font-bold text-blue-strong'>Modalidades</a>
+        <a href="#FAQ" className='text-2xl font-bold text-blue-strong'>FAQ</a>
         <a href="https://api.whatsapp.com/send?phone=+526621998313&text=Hola Mundo" target="_blank" rel="noopener noreferrer" className="text-orange">
             <WhatsappLogo className="w-20 h-100 text-orange" />
         </a>
