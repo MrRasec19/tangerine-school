@@ -132,5 +132,16 @@
 
 .opinions-content {
     display: inline-block;
-    animation: 35s slide infinite linear;
+    animation: 55s slide infinite linear;
+}
+
+.opinion-card {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 600px;
+    height: 270px;
+}
+
+#opinion-text {
+    text-wrap: wrap;
 }

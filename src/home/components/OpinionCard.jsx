@@ -1,29 +1,21 @@
 import PropTypes from 'prop-types';
-import { Box, Card, CardContent, Typography } from '@mui/material';
 
 export const OpinionCard = ({ opinion, userName, userSocialName, city, state }) => {
   return (
-    <Box width="80%" className="m-5">
-        <Card>
-            <CardContent>
-                <Typography variant='body2' color='text.secondary'>
-                    { opinion }
-                </Typography>
-                <Typography variant='h5' component='h5'>
-                    { userName }
-                </Typography>
-                <Typography variant='h5' component='h5'>
-                    { city }
-                </Typography>
-                <Typography variant='h5' component='h5'>
-                    { state }
-                </Typography>
-                <Typography variant='h5' component='h5'>
-                    { userSocialName }
-                </Typography>
-            </CardContent>
-        </Card>
-    </Box>
+    <div className='opinion-card bg-rose-thiny rounded-3xl px-10 pt-10 pb-5 flex flex-col justify-between'>
+        <div>
+            <h6 id='opinion-text' className='text-orange font-bold text-xl'>
+                { opinion }
+            </h6>
+        </div>
+        <div>
+            <span className='text-orange font-bold text-4xl mr-2'>{ userName }</span>
+            <span className='text-orange font-bold text-2xl'>{ city }, { state }</span>
+            <div>
+                <span className='text-orange font-bold text-2xl'>{ userSocialName }</span>
+            </div>
+        </div>
+    </div>
   )
 }
 

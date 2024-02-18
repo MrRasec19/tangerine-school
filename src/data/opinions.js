@@ -1,7 +1,7 @@
 export const opinons = [
     {
         id: 1,
-        opinion: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+        opinion: 'lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore',
         userName: 'Cristian',
         userSocialName: '@crismend',
         city: 'Guadalajara',
@@ -17,7 +17,7 @@ export const opinons = [
     },
     {
         id: 3,
-        opinion: 'piojlgfjakldjfgklasjgklfjasljglkajlgfasdfdfgs',
+        opinion: 'lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore',
         userName: 'Rasec',
         userSocialName: '@Mr_Rasec19',
         city: 'Hermosillo',
@@ -25,7 +25,7 @@ export const opinons = [
     },
     {
         id: 4,
-        opinion: 'saaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafeeeeeeeeeeeeeeeeeeaqqqqqqq',
+        opinion: 'lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore',
         userName: 'user',
         userSocialName: '@user',
         city: 'city',
@@ -33,7 +33,7 @@ export const opinons = [
     },
     {
         id: 5,
-        opinion: 'bttttttttttttttttttttttttttttttttttttttttttttt',
+        opinion: 'lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore',
         userName: 'Unknow',
         userSocialName: '@Unknow',
         city: 'Unknow',
@@ -41,7 +41,7 @@ export const opinons = [
     },
     {
         id: 6,
-        opinion: 'bttttttttttttttttttttttttttttttttttttttttttttt',
+        opinion: 'lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore',
         userName: 'Unknow',
         userSocialName: '@Unknow',
         city: 'Unknow',
@@ -49,7 +49,7 @@ export const opinons = [
     },
     {
         id: 7,
-        opinion: 'bttttttttttttttttttttttttttttttttttttttttttttt',
+        opinion: 'lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore',
         userName: 'Unknow',
         userSocialName: '@Unknow',
         city: 'Unknow',
@@ -57,7 +57,7 @@ export const opinons = [
     },
     {
         id: 8,
-        opinion: 'bttttttttttttttttttttttttttttttttttttttttttttt',
+        opinion: 'lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore',
         userName: 'Unknow',
         userSocialName: '@Unknow',
         city: 'Unknow',
@@ -65,7 +65,7 @@ export const opinons = [
     },
     {
         id: 9,
-        opinion: 'bttttttttttttttttttttttttttttttttttttttttttttt',
+        opinion: 'lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore lorem Ips lorem Ips lorem Ips lorem Ips lorem Ips lore',
         userName: 'Unknow',
         userSocialName: '@Unknow',
         city: 'Unknow',
