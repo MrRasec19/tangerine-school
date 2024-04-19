@@ -18,7 +18,7 @@
     transform: scale(.6);
     left: -18rem;
     right: 89rem;
-    top: 9rem;
+    top: 15rem;
 }
 
 #white-shine, #orange-shine {
@@ -144,4 +144,20 @@
 
 #opinion-text {
     text-wrap: wrap;
+}
+
+.waveRose {
+    background-color: #FEF3ED;
+}
+
+.waveBlue {
+    background-color: #FFC6B6;
+}
+
+.waveRoseFrequentlyQuestions {
+    background-color: #00274E;
+}
+
+.waveRoseOurCompromises {
+    background-color: #F4D47D;
 }
