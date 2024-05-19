@@ -53,7 +53,7 @@
 .cat-card {
     transform: scale(.7);
     opacity: 1;
-    transition: 1s;
+    /* transition: 1s; */
 }
 
 .cat-card:hover {
@@ -160,4 +160,9 @@
 
 .waveRoseOurCompromises {
     background-color: #F4D47D;
+}
+
+.why-study-content-text-card {
+    position: relative;
+    bottom: 34rem;
 }

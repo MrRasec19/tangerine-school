@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import TangerineWindow from "../../assets/ventanita-tangerine.svg?react";
+import { WhyStudyWindowCards } from './WhyStudyWindowCards';
 
 export default function WhyStudyCards({ imgSrc, text }) {
   return (
@@ -10,7 +10,7 @@ export default function WhyStudyCards({ imgSrc, text }) {
           <span className="text-blue-strong text-5xl font-bold text-center cat-card-text">{ text }</span>
         </div>
       </div>
-      <TangerineWindow id="tangerine-window" />
+      <WhyStudyWindowCards title={'Maestros capacitados'} paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, omnis quibusdam earum debitis ab magni perspiciatis adipisci voluptate assumenda velit eaque veniam tempore tempora cumque. Quo repellat animi odio doloribus.'} />
     </>
   )
 }

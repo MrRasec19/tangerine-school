@@ -6,7 +6,7 @@ import WaveRose from "../../assets/waves/wave-rose.svg?react";
 export const FrequentlyQuestions = () => {
   return (
     <>
-      <article className='bg-blue-strong px-10 py-40' id='modalities'>
+      <article className='bg-blue-strong px-10 py-40' id='FAQ'>
         <div className="flex flex-col justify-center items-center">
           <div className="mb-9">
             <h3 id="title" className="text-orange text-6xl font-bold">
