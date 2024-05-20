@@ -18,11 +18,14 @@ export const TangerineBanner = () => {
   return (
     <>
       <article className='py-14 text-center bg-rose-thiny flex flex-col items-center justify-end' id='home-section'>
-        <h1 className='text-8xl font-bold text-orange'>Inglés en línea</h1>
-        <h2 className='text-7xl font-bold text-blue-strong mb-8'>Clases 100% en vivo</h2>
+        <h1 className='text-4xl md:text-6xl lg:text-8xl font-bold text-orange'>Inglés en línea</h1>
+        <h2 className='text-3xl md:text-5xl lg:text-7xl font-bold text-blue-strong mb-8'>Clases 100% en vivo</h2>
         <TangerineButton />
         <TangerineRoseButton text={"Contáctanos"} />
-        <h3 className='text-orange font-bold text-4xl flex flex-col items-center mt-3'><a onClick={(e) => handleScroll(e, 'why-with-us')} href="#why-with-us">Quiero saber más</a><IoIosArrowDown className='text-orange font-bold text-4xl' /></h3>
+        <h3 className='text-orange font-bold text-2xl md:text-3xl lg:text-4xl flex flex-col items-center mt-3'>
+          <a onClick={(e) => handleScroll(e, 'why-with-us')} href="#why-with-us">Quiero saber más</a>
+          <IoIosArrowDown className='text-orange font-bold text-2xl md:text-3xl lg:text-4xl' />
+        </h3>
         <Tangerino className="tangerino" />
       </article>
       <WaveRose className="waveRose" />
