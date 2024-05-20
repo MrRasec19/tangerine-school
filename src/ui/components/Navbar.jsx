@@ -20,7 +20,7 @@ export const Navbar = () => {
             <Logo className="w-40 h-100"/>
         </div>
         
-        <a href="#home-section" onClick={(e) => handleScroll(e, 'home-section')} className='text-2xl font-bold text-blue-strong'>Método</a>
+        <a href="#our-method" onClick={(e) => handleScroll(e, 'our-method')} className='text-2xl font-bold text-blue-strong'>Método</a>
         <a href="#why-with-us" onClick={(e) => handleScroll(e, 'why-with-us')} className='text-2xl font-bold text-blue-strong'>Contacto</a>
         <a href="#modalities" onClick={(e) => handleScroll(e, 'modalities')} className='text-2xl font-bold text-blue-strong'>Modalidades</a>
         <a href="#FAQ" onClick={(e) => handleScroll(e, 'FAQ')} className='text-2xl font-bold text-blue-strong'>FAQ</a>
