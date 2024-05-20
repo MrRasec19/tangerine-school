@@ -56,15 +56,15 @@
     /* transition: 1s; */
 }
 
-.cat-card:hover {
+/* .cat-card:hover {
     cursor: pointer;
     opacity: 0;
     transition: .4s;
-}
+} */
 
-#tangerine-window {
+/* #tangerine-window {
     display: none;
-}
+} */
 
 .accordion {
     background-color: #00274E !important;
