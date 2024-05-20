@@ -6,6 +6,15 @@ import { TangerineRoseButton } from "./TangerineRoseButton";
 import WaveRose from "../../assets/waves/wave-orange-thiny.svg?react";
 
 export const TangerineBanner = () => {
+
+  const handleScroll = (event, sectionId) => {
+    event.preventDefault();
+    const section = document.getElementById(sectionId);
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
+};
+
   return (
     <>
       <article className='py-14 text-center bg-rose-thiny flex flex-col items-center justify-end' id='home-section'>
@@ -13,7 +22,7 @@ export const TangerineBanner = () => {
         <h2 className='text-7xl font-bold text-blue-strong mb-8'>Clases 100% en vivo</h2>
         <TangerineButton />
         <TangerineRoseButton text={"Contáctanos"} />
-        <h3 className='text-orange font-bold text-4xl flex flex-col items-center mt-3'><a href="#">Quiero saber más</a><IoIosArrowDown className='text-orange font-bold text-4xl' /></h3>
+        <h3 className='text-orange font-bold text-4xl flex flex-col items-center mt-3'><a onClick={(e) => handleScroll(e, 'why-with-us')} href="#why-with-us">Quiero saber más</a><IoIosArrowDown className='text-orange font-bold text-4xl' /></h3>
         <Tangerino className="tangerino" />
       </article>
       <WaveRose className="waveRose" />

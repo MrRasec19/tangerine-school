@@ -1,28 +1,23 @@
 import PropTypes from 'prop-types';
 
-export const OpinionCard = ({ opinion, userName, userSocialName, city, state }) => {
+export const OpinionCard = ({ comment, name, from }) => {
   return (
-    <div className='opinion-card bg-rose-thiny rounded-3xl px-10 pt-10 pb-5 flex flex-col justify-between'>
+    <div className='opinion-card bg-rose-thiny rounded-3xl px-10 pt-10 pb-5 flex flex-col justify-between h-80'>
         <div>
             <h6 id='opinion-text' className='text-orange font-bold text-xl'>
-                { opinion }
+                { comment }
             </h6>
         </div>
         <div>
-            <span className='text-orange font-bold text-4xl mr-2'>{ userName }</span>
-            <span className='text-orange font-bold text-2xl'>{ city }, { state }</span>
-            <div>
-                <span className='text-orange font-bold text-2xl'>{ userSocialName }</span>
-            </div>
+            <span className='text-orange font-bold text-4xl mr-2'>{ name }</span>
+            <span className='text-orange font-bold text-2xl'>{ from }</span>
         </div>
     </div>
   )
 }
 
 OpinionCard.propTypes = {
-    opinion: PropTypes.string,
-    userName: PropTypes.string,
-    userSocialName: PropTypes.string,
-    city: PropTypes.string,
-    state: PropTypes.string,
+    comment: PropTypes.string,
+    name: PropTypes.string,
+    from: PropTypes.string,
 }

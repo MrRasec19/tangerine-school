@@ -7,8 +7,8 @@ export const WhyStudyWindowCards = ({ title, paragraph }) => {
         <div id="tangerine-window">
             <TangerineWindow  />
             <div className='why-study-content-text-card'>
-                <h4 className="text-orange font-bold text-5xl w-full text-center mb-11">{ title }</h4>
-                <p className="text-blue-strong font-bold text-2xl w-full text-left px-16">{ paragraph }</p>
+                <h4 className="text-orange font-bold text-3xl w-full text-center mb-11 px-10">{ title }</h4>
+                <p className="text-blue-strong font-bold text-lg w-full text-left px-16">{ paragraph }</p>
             </div>
         </div>
     </>

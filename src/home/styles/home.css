@@ -44,6 +44,7 @@
 
 .cat-card-img {
     height: 190%;
+    background-size: cover;
 }
 
 .cat-card-contain {
@@ -53,18 +54,7 @@
 .cat-card {
     transform: scale(.7);
     opacity: 1;
-    /* transition: 1s; */
 }
-
-/* .cat-card:hover {
-    cursor: pointer;
-    opacity: 0;
-    transition: .4s;
-} */
-
-/* #tangerine-window {
-    display: none;
-} */
 
 .accordion {
     background-color: #00274E !important;
@@ -122,9 +112,9 @@
     background: linear-gradient(to right, rgba(255,255,255,0), #ffc9b4);
 }
 
-/* #content:hover .opinions-content {
+#content:hover .opinions-content {
     animation-play-state: paused;
-} */
+}
 
 .opinions-slide{
     display: flex;
@@ -132,7 +122,7 @@
 
 .opinions-content {
     display: inline-block;
-    animation: 55s slide infinite linear;
+    animation: 100s slide infinite linear;
 }
 
 .opinion-card {
@@ -164,5 +154,15 @@
 
 .why-study-content-text-card {
     position: relative;
-    bottom: 34rem;
+    bottom: 28rem;
 }
+
+#our-method{
+    background-image: url(../../assets/fondo-azul-tangerine.jpg);
+    background-size: cover;
+}
+
+/* #wave-blue-img{
+    background-image: url(../../assets/fondo-azul-tangerine.jpg);
+    background-size: cover;
+} */

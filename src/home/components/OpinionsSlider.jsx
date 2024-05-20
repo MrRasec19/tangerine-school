@@ -1,4 +1,4 @@
-import { opinons } from '../../data/opinions.js';
+import { comments } from '../../data/comments.js';
 import { OpinionCard } from './OpinionCard.jsx';
 
 export const OpinionsSlider = () => {
@@ -8,9 +8,9 @@ export const OpinionsSlider = () => {
       <div className='opinions-content'>
         <div className='opinions-slide'>
               {
-                opinons.map( (op) => {
+                comments.map( (comment) => {
                   return(
-                    <OpinionCard key={ op.id } opinion={ op.opinion } userName={ op.userName } userSocialName={ op.userSocialName } city={ op.city } state={ op.state } />
+                    <OpinionCard key={ comment.id } comment={ comment.comment } name={ comment.name } from={ comment.from } />
                   )
                 })
               }
@@ -19,9 +19,9 @@ export const OpinionsSlider = () => {
       <div className='opinions-content'>
         <div className='opinions-slide'>
               {
-                opinons.map( (op) => {
+                comments.map( (comment) => {
                   return(
-                    <OpinionCard key={ op.id } opinion={ op.opinion } userName={ op.userName } userSocialName={ op.userSocialName } city={ op.city } state={ op.state } />
+                    <OpinionCard key={ comment.id } comment={ comment.comment } name={ comment.name } from={ comment.from } />
                   )
                 })
               }
