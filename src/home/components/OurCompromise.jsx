@@ -12,21 +12,17 @@ export const OurCompromise = () => {
           <div className="col-start-11 col-end-12">
             <WhiteShine id="white-shine" className="w-14 h-14 text-white" />
           </div>
-          <div className="col-start-4 col-end-9">
+          <div className="col-start-4 col-end-10">
             <h3 id="title" className="text-orange text-6xl w-full font-bold">
               Nuestro compromiso
             </h3>
           </div>
-          <div className="col-start-4 col-end-11 py-10">
+          <div className="col-start-3 col-end-12 py-10">
             <p
               id="paragraph"
               className="w-full text-blue-strong text-4xl font-bold text-left"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-              minima ut voluptatibus cumque atque vel rem exercitationem veniam
-              dolorem libero minus facilis perspiciatis, dicta officia eveniet
-              nulla culpa eius Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Aliquam, excepturi fugiat repellendus aliquid
+              En Tangerine School nos comprometemos a acompañarte en tu proceso de aprendizaje con clases semi personalizadas y un plan de estudios flexible. Trabajamos desde la empatía hacia nuestros estudiantes y el cariño a nuestra profesión, siempre buscando maneras creativas para lograr casos de éxito y superación personal y profesional.
             </p>
           </div>
           <div className="col-start-5 col-end-9">

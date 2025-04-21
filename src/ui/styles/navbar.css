@@ -1,0 +1,39 @@
+.whatsapp-logo{
+    transform: scale(0.9);
+}
+.menuBtn {
+    transform: scale(1.3);
+    margin-right: 30px;
+}
+
+@media screen and ( width >= 830px) {
+    #sm-nav {
+        display: none;
+    }
+    .menuBtn {
+        display: none;
+    }
+}
+@media screen and ( width <= 830px) {
+    .lg-link {
+        display: none;
+    }
+    #sm-nav {
+        height: 100%;
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        background-color: red;
+        position: fixed;
+        z-index: 10;
+        right: -100000px;
+    }
+    #sm-nav .menu-content-sm {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .tangerine-logo{
+        margin-bottom: 100px;
+    }
+}

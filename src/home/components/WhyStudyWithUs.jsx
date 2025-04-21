@@ -18,7 +18,7 @@ export const WhyStudyWithUs = () => {
           </div>
           {studyWhitUs.map(item => (
             <div key={item.id} className="col-span-3 row-start-2 mb-20">
-              <WhyStudyCards imgSrc={'https://cdn.unotv.com/images/2023/09/gatitos-munchkin-jpg-140420-1024x576.jpg'} title={item.title} text={item.text} />
+              <WhyStudyCards imgSrc={item.image} title={item.title} text={item.text} />
             </div>
           ))}
         </div>

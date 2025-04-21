@@ -19,15 +19,13 @@ export const OurMethods = () => {
             Nuestro método
           </h3>
           <p id="paragraph" className="w-full text-white text-lg md:text-3xl text-left mb-8">
+            Nuestro método es muy  “Hands on” pero al mismo tiempo integral. Aunque enfocamos nuestra atención particularmente hacia lo conversacional también trabajamos con herramientas de evaluación de lectura, escritura, listening y gramática.
+          </p>
+          {/* <p id="paragraph" className="w-full text-white text-lg md:text-3xl text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
             minima ut voluptatibus cumque atque vel rem exercitationem veniam
             dolorem libero minus facilis perspiciatis, dicta officia eveniet.
-          </p>
-          <p id="paragraph" className="w-full text-white text-lg md:text-3xl text-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-            minima ut voluptatibus cumque atque vel rem exercitationem veniam
-            dolorem libero minus facilis perspiciatis, dicta officia eveniet.
-          </p>
+          </p> */}
         </div>
       </article>
       <WaveYellow className="bg-blue-strong" />
