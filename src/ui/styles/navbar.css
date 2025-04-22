@@ -1,3 +1,7 @@
+nav a:hover {
+    color: #FD752D;
+    transition: color 0.3s ease;
+}
 .whatsapp-logo{
     transform: scale(0.9);
 }
@@ -5,8 +9,22 @@
     transform: scale(1.3);
     margin-right: 30px;
 }
+.menuBtn:hover {
+    color: #FD752D;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
 
-@media screen and ( width >= 830px) {
+.close-menu-btn {
+    transform: scale(1.2);
+}
+.close-menu-btn:hover {
+    color: #FD752D;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+@media screen and ( width >= 831px) {
     #sm-nav {
         display: none;
     }
@@ -20,20 +38,35 @@
     }
     #sm-nav {
         height: 100%;
-        width: 55%;
+        width: 40%;
         display: flex;
-        justify-content: center;
-        background-color: red;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFC6B6;
         position: fixed;
         z-index: 10;
-        right: -100000px;
+        right: -100%;
+        transition: right 0.5s ease-in-out;
+        padding: 5px 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
     #sm-nav .menu-content-sm {
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
     }
     .tangerine-logo{
         margin-bottom: 100px;
+    }
+    .menu-header-sm {
+        align-self: flex-end;
+    }
+    .menu-content-sm div:hover {
+        background-color: rgba(255, 255, 255, 0.4);
+        border-radius: 8px;
+        cursor: pointer;
+        color: #FD752D;
+        transition: color 0.3s ease;
+        transition: background-color 0.3s ease;
     }
 }
