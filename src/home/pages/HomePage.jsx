@@ -1,11 +1,11 @@
 import { OurMethods } from '../components/OurMethods'
-import { TangerineBanner, WhyStudyWithUs, Modalities, OurCompromise, FrequentlyQuestions, FollowUs, StudentsOpinions } from '../index'
+import { TangerineBanner, WhyStudyWhitUs2, Modalities, OurCompromise, FrequentlyQuestions, FollowUs, StudentsOpinions } from '../index'
 
 export const HomePage = () => {
   return (
     <main>
       <TangerineBanner />
-      <WhyStudyWithUs />
+      <WhyStudyWhitUs2 />
       <OurMethods />
       <OurCompromise />
       <Modalities />

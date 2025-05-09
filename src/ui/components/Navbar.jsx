@@ -45,37 +45,9 @@ export const Navbar = () => {
             <button onClick={handleOpenMenu} className="font-bold text-blue-strong menuBtn">
                 <MenuIcon/>
             </button>
-
-
-
-
-            {/* <div className='space-x-5 text-2xl'>
-                <NavLink 
-                    to="#home-section"
-                    className={({ isActive, isPending }) =>
-                        isPending ? "font-normal" : isActive ? "font-bold text-orange-400" : ""
-                    }
-                >
-                    Inicio
-                </NavLink>
-                <NavLink 
-                    to="/about-us"
-                    className={({ isActive, isPending }) =>
-                        isPending ? "font-normal" : isActive ? "font-bold text-orange-400" : ""
-                    }
-                >
-                    Sobre nosotros
-                </NavLink>
-                <NavLink 
-                    to="/contact"
-                    className={({ isActive, isPending }) =>
-                        isPending ? "font-normal" : isActive ? "font-bold text-orange-400" : ""
-                    }
-                >
-                    Contacto
-                </NavLink>
-            </div> */}
+            
         </nav>
+        
         <nav id="sm-nav">
             <div className="menu-header-sm h-9 mb-3">
                 <button onClick={handleCloseMenu} className="p-4 font-bold text-blue-strong close-menu-btn">

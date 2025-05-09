@@ -5,6 +5,6 @@ footer{
 .iconTangerineFooter{
     transform: scale(2.5);
     position: absolute;
-    right: 14rem;
+    right: 150px;
     top: -2rem;
 }
