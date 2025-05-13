@@ -1,5 +1,4 @@
 import WhiteShine from "../../assets/brillito-blanco-tangerine.svg?react";
-import WaveRose from "../../assets/waves/wave-rose.svg?react";
 
 export const OurCompromise = () => {
   return (
@@ -46,8 +45,6 @@ export const OurCompromise = () => {
           </div>
         </div>
       </article>
-
-      <WaveRose className="waveRoseOurCompromises w-full" />
     </>
   );
 };

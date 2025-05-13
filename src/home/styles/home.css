@@ -1,5 +1,5 @@
 #students-opinions{
-    background-image: url(../../assets/fondo-rosa-tangerine.jpg);
+    background-image: url("../../assets/fondo-rosa-tangerine.jpg");
     background-size: cover;
 }
 
@@ -81,13 +81,31 @@
 }
 
 @keyframes slide {
-    from {
-        transform: translateX(0);
+    0% {
+      transform: translateX(0);
     }
-    to {
-        transform: translateX(-100%);
+    100% {
+      transform: translateX(-50%);
     }
-}
+  }
+  
+  .animate-slide {
+    animation: slide linear infinite;
+    animation-duration: 30s; /* valor por defecto para pantallas grandes */
+  }
+  
+  @media (max-width: 768px) {
+    .animate-slide {
+      animation-duration: 15s; /* menos duración = más rápido */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .animate-slide {
+      animation-duration: 10s;
+    }
+  }
+  
 
 #content{
     overflow: hidden;
@@ -118,21 +136,6 @@
     animation-play-state: paused;
 }
 
-.opinions-slide{
-    display: flex;
-}
-
-.opinions-content {
-    display: inline-block;
-    animation: 100s slide infinite linear;
-}
-
-.opinion-card {
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 600px;
-    height: 270px;
-}
 
 #opinion-text {
     text-wrap: wrap;
@@ -171,16 +174,28 @@
 #our-method{
     background-image: url(../../assets/fondo-azul-tangerine.jpg);
     background-size: cover;
-}
+} 
 
 .bubble-tail-left {
     position: absolute;
-    left: -35px;
+    left: -34px;
     bottom: 0px;
     width: 0;
     height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right: 35px solid #00274E; /* o tu color `blue-strong` */
+  }
+
+  .bubble-tail-left-opinions {
+    position: absolute;
+    left: -41px;
+    bottom: 0px;
+    width: 50px;
+    height: 10px;
     border-top: 30px solid transparent;
-    border-right: 40px solid #00274E;
+    border-bottom: 0px solid transparent;
+    border-right: 35px solid #FEF3ED; /* o tu color `blue-strong` */
   }
   
 

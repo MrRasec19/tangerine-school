@@ -1,5 +1,4 @@
 import { AccordionQuestions } from "./AccordionQuestions";
-import WaveRose from "../../assets/waves/wave-rose.svg?react";
 
 export const FrequentlyQuestions = () => {
   return (
@@ -25,8 +24,6 @@ export const FrequentlyQuestions = () => {
           </div>
         </div>
       </article>
-
-      <WaveRose className="waveRoseFrequentlyQuestions w-full" />
     </>
   );
 };

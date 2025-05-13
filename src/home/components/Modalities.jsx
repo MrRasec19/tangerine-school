@@ -1,5 +1,3 @@
-// import Note from "../../assets/nota-tangerine.svg?react";
-import WaveRose from "../../assets/waves/wave-orange-thiny.svg?react";
 import Note from '../../assets/nota-tangerine.png';
 import Note2 from '../../assets/nota-tangerine2.png';
 import Note3 from '../../assets/nota-tangerine3.png';
@@ -33,7 +31,6 @@ export const Modalities = () => {
         </div>
       </article>
 
-      <WaveRose className="waveRose" />
     </>
   );
 };

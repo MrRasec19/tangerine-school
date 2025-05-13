@@ -1,5 +1,4 @@
 import TangerineWindow from '../../assets/ventana-tangerine.png';
-import WaveYellow from "../../assets/waves/wave-yellow.svg?react";
 
 export const OurMethods = () => {
   return (
@@ -36,7 +35,6 @@ export const OurMethods = () => {
         </div>
       </article>
 
-      <WaveYellow className="bg-blue-strong w-full" />
     </>
   );
 };

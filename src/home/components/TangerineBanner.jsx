@@ -3,7 +3,6 @@ import Tangerino from "../../assets/tangerino-grande-tangerine.svg?react";
 import '../styles/home.css'
 import { TangerineButton } from './TangerineButton';
 import { TangerineRoseButton } from "./TangerineRoseButton";
-import WaveRose from "../../assets/waves/wave-orange-thiny.svg?react";
 
 export const TangerineBanner = () => {
 
@@ -42,8 +41,6 @@ export const TangerineBanner = () => {
           " 
         />
       </article>
-
-      <WaveRose className="waveRose" />
     </>
   );
 };

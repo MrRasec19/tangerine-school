@@ -1,26 +1,27 @@
-import { OpinionsSlider } from "./OpinionsSlider";
-import WaveBlue from "../../assets/waves/wave-blue-strong.svg?react";
+import { comments } from '../../data/comments.js';
+import { OpinionCard } from './OpinionCard.jsx';
 
 export const StudentsOpinions = () => {
   return (
-    <>
-      <article
-        className="bg-white py-20 sm:py-32 md:py-40 flex items-center justify-center flex-col"
-        id="students-opinions"
-      >
-        <div className="grid grid-cols-1 sm:grid-cols-12 w-full max-w-6xl px-4 sm:px-6 mb-12 sm:mb-16">
-          <div className="sm:col-start-2 sm:col-end-12 text-center sm:text-left">
-            <h3
-              id="title"
-              className="text-orange font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight"
-            >
-              ¿Qué opinan nuestros alumnxs?
-            </h3>
+    <article id="students-opinions" className="w-full py-24 overflow-hidden">
+      <div className="flex justify-center px-4">
+        <p className="text-orange font-black text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center mb-14 leading-tight">
+          ¿Qué opinan nuestros alumnxs?
+        </p>
+      </div>
+
+      <div className="flex gap-6 px-4 sm:px-6 whitespace-nowrap animate-slide hover:[animation-play-state:paused]">
+        {[...comments, ...comments].map((comment, index) => (
+          <div key={`${comment.id}-${index}`} className="inline-block">
+            <OpinionCard
+              comment={comment.comment}
+              name={comment.name}
+              from={comment.from}
+            />
           </div>
-        </div>
-        <OpinionsSlider />
-      </article>
-      <WaveBlue className="waveBlue w-full" />
-    </>
+        ))}
+      </div>
+
+    </article>
   );
 };
