@@ -4,7 +4,7 @@ export const OurMethods = () => {
   return (
     <>
       <article
-        className="bg-blue-strong px-4 sm:px-6 md:px-10 py-12 sm:py-16 md:py-24 flex flex-col md:flex-row items-center justify-center rounded-br-lg space-y-8 md:space-y-0 md:space-x-12"
+        className="bg-blue-strong px-4 sm:px-6 md:px-10 py-12 sm:py-16 md:py-24 flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-12"
         id="our-method"
       >
         {/* Sección de Imagen */}

@@ -1,34 +1,55 @@
-import PropTypes from 'prop-types';
-import { WhyStudyWindowCards } from './WhyStudyWindowCards';
 import { useState } from 'react';
+import { studyWhitUs } from '../../data/studyWhitUs.js';
 
-export default function WhyStudyCards({ imgSrc, title, text }) {
-
-  const [isClicked, setIsClicked] = useState(false);
+export default function WhyStudyCards() {
+  const [clickedCardId, setClickedCardId] = useState(null);
 
   return (
-    <>
-      <div 
-        className='h-full sm:h-auto w-auto cursor-pointer hover:scale-105 transition-transform duration-300'
-        onClick={() => setIsClicked(true)}
-        onMouseLeave={() => setIsClicked(false)}
-      >
-        <div className={`w-full h-full cat-card transition-opacity duration-300 ${isClicked ? 'opacity-0' : 'opacity-100'}`}>
-          <img src={ imgSrc } alt="Imagen" className='w-full rounded-t-xl cat-card-img' />
-          <div className="w-full bg-orange flex justify-center items-center rounded-b-xl cat-card-contain">
-            <span className="text-blue-strong text-5xl font-bold text-center cat-card-text">{ title }</span>
-          </div>
-        </div>
-        <div className={`w-full h-full absolute top-0 left-0 scale-125 z-10 transition-opacity duration-300 ${isClicked ? 'opacity-100' : 'opacity-0'}`}>
-          <WhyStudyWindowCards title={ title } paragraph={ text } />
-        </div>
-      </div>
-    </>
-  )
-}
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+      {studyWhitUs.map((card) => {
+        const isClicked = clickedCardId === card.id;
 
-WhyStudyCards.propTypes = {
-  imgSrc: PropTypes.string,
-  title: PropTypes.string,
-  text: PropTypes.string
+        return (
+          <div
+            key={card.id}
+            className={`relative bg-white rounded-2xl overflow-hidden flex flex-col justify-between h-[400px] sm:h-[450px] md:h-[500px] lg:h-[520px] xl:h-[540px] cursor-pointer transition-all duration-500 bg-transparent border-0 ${isClicked ? 'border-0 bg-transparent' : 'shadow-lg'}`}
+            onClick={() => setClickedCardId(card.id)}
+            onMouseLeave={() => setClickedCardId(null)}
+          >
+            {/* TARJETA ORIGINAL */}
+            <div
+              className={`absolute top-0 left-0 w-full h-full flex flex-col transition-opacity duration-500 ${
+                isClicked ? 'opacity-0 pointer-events-none' : 'opacity-100'
+              }`}
+            >
+              <div className="h-3/4">
+                <img
+                  src={card.img}
+                  alt={card.title}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-4 text-center bg-orange w-full flex items-center justify-center h-1/4">
+                <h3 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl text-blue-strong font-semibold">
+                  {card.title}
+                </h3>
+              </div>
+            </div>
+
+            {/* TARJETA "HOLA" */}
+            <div className={`tangerine-window-container flex justify-center items-center flex-column ${
+              isClicked ? 'opacity-100' : 'opacity-0 pointer-events-none'
+            }`}>
+              <div>
+                {card.title}
+              </div>
+              <div>
+                {card.text}
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
 }
