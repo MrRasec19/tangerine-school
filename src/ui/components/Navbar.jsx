@@ -12,6 +12,7 @@ export const Navbar = () => {
         const section = document.getElementById(sectionId);
         if (section) {
             section.scrollIntoView({ behavior: 'smooth' });
+            handleCloseMenu();
         }
     };
 
@@ -31,15 +32,19 @@ export const Navbar = () => {
 
             <div className='w-100 h-14 scale-150 md:pr-5'>
                 {/* <h1 className='text-black'>Tangerine School</h1> */}
-                <Logo className="w-40 h-100"/>
+                <Logo className="w-40 h-100 transition-all duration-300 ease-in-out transform hover:scale-105"/>
             </div>
 
-            <a href="#our-method" onClick={(e) => handleScroll(e, 'our-method')} className='lg-link text-2xl font-bold text-blue-strong'>Método</a>
-            <a href="#why-with-us" onClick={(e) => handleScroll(e, 'why-with-us')} className='lg-link text-2xl font-bold text-blue-strong'>Contacto</a>
-            <a href="#modalities" onClick={(e) => handleScroll(e, 'modalities')} className='lg-link text-2xl font-bold text-blue-strong'>Modalidades</a>
-            <a href="#FAQ" onClick={(e) => handleScroll(e, 'FAQ')} className='lg-link text-2xl font-bold text-blue-strong'>FAQ</a>
+            <a href="#our-method" onClick={(e) => handleScroll(e, 'our-method')} className='lg-link text-2xl font-bold text-blue-strong transition-all duration-300 ease-in-out transform hover:scale-105'>Método</a>
+
+            <a href="#why-with-us" onClick={(e) => handleScroll(e, 'home-section')} className='lg-link text-2xl font-bold text-blue-strong transition-all duration-300 ease-in-out transform hover:scale-105'>Contacto</a>
+
+            <a href="#modalities" onClick={(e) => handleScroll(e, 'modalities')} className='lg-link text-2xl font-bold text-blue-strong transition-all duration-300 ease-in-out transform hover:scale-105'>Modalidades</a>
+
+            <a href="#FAQ" onClick={(e) => handleScroll(e, 'FAQ')} className='lg-link text-2xl font-bold text-blue-strong transition-all duration-300 ease-in-out transform hover:scale-105'>FAQ</a>
+
             <a href="https://api.whatsapp.com/send?phone=+526621998313&text=Hola Mundo" target="_blank" rel="noopener noreferrer" className="lg-link text-orange">
-                <WhatsappLogo className="w-20 h-100 text-orange whatsapp-logo" />
+                <WhatsappLogo className="w-20 h-100 text-orange whatsapp-logo transition-all duration-300 ease-in-out transform hover:scale-105" />
             </a>
             
             <button onClick={handleOpenMenu} className="font-bold text-blue-strong menuBtn">
@@ -55,7 +60,7 @@ export const Navbar = () => {
                 </button>
             </div>
             <div className="menu-content-sm">
-                <div className="p-5 w-full text-center text-2xl font-bold text-blue-strong">
+                <div className="p-5 w-full text-center text-2xl font-bold text-blue-strong border-orange border-3">
                     <a className="" href="#our-method" onClick={(e) => handleScroll(e, 'our-method')}>Método</a>
                 </div>
                 <div className="p-5 text-center text-2xl font-bold text-blue-strong">
@@ -68,8 +73,8 @@ export const Navbar = () => {
                     <a href="#our-method" onClick={(e) => handleScroll(e, 'FAQ')}>FAQ</a>
                 </div>
                 <div className="p-5 text-center flex justify-center items-center">
-                    <a href="https://api.whatsapp.com/send?phone=+526621998313&text=Hola Mundo" className="text-orange" target="_blank" rel="noopener noreferrer">
-                    <WhatsappLogo className="w-20 h-100 text-orange whatsapp-logo" />
+                    <a href="https://api.whatsapp.com/send?phone=+526621998313&text=Hola Mundo" className="text-orange" target="_blank" rel="noopener noreferrer" onClick={handleCloseMenu}>
+                    <WhatsappLogo className="w-20 h-100 text-orange whatsapp-logo"/>
                     </a>
                 </div>
             </div>

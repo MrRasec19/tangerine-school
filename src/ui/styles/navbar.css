@@ -70,3 +70,15 @@ nav a:hover {
         transition: background-color 0.3s ease;
     }
 }
+
+@media screen and ( width <= 660px) {
+    #sm-nav {
+        width: 60%;
+    }
+}
+
+@media screen and ( width <= 460px) {
+    #sm-nav {
+        width: 100%;
+    }
+}

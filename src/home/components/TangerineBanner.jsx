@@ -26,7 +26,7 @@ export const TangerineBanner = () => {
         </div>
 
         <h3 className='text-orange font-bold text-xl sm:text-2xl mt-6'>
-          <a onClick={(e) => handleScroll(e, 'why-with-us')} href="#why-with-us" className="flex flex-col items-center font-black text-2xl sm:text-3xl">
+          <a onClick={(e) => handleScroll(e, 'why-with-us')} href="#why-with-us" className="flex flex-col items-center font-black text-2xl sm:text-3xl transition-all duration-300 ease-in-out transform hover:scale-105">
             Quiero saber más
             <IoIosArrowDown className='mt-1 animate-bounce text-orange text-2xl sm:text-3xl' />
           </a>

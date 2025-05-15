@@ -35,13 +35,19 @@ export const OurCompromise = () => {
 
           {/* Botón con animación */}
           <div className="sm:col-start-4 sm:col-end-10 flex justify-center sm:justify-start px-4 sm:px-0">
-            <button
-              id="btn"
-              className="w-full sm:w-auto bg-orange text-blue-strong font-bold rounded-full text-base sm:text-lg md:text-xl lg:text-2xl px-6 py-3
-                         transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-orange/90 active:scale-95 focus:outline-none focus:ring-4 focus:ring-orange/50"
+            <a 
+              href="https://api.whatsapp.com/send?phone=+526621998313&text=Hola Mundo"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Inscríbete ahora y obtén un descuento especial
-            </button>
+                <button
+                id="btn"
+                className="w-full sm:w-auto bg-orange text-blue-strong font-bold rounded-full text-base sm:text-lg md:text-xl lg:text-2xl px-6 py-3
+                          transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-orange/90 active:scale-95 focus:outline-none focus:ring-4 focus:ring-orange/50"
+              >
+                Inscríbete ahora y obtén un descuento especial
+              </button>
+            </a>
           </div>
         </div>
       </article>

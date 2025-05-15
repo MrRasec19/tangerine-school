@@ -8,39 +8,40 @@ import { TangerineRoseButton } from "./TangerineRoseButton";
 export const FollowUs = () => {
   return (
     <article
-      className="bg-rose-thiny px-4 sm:px-8 md:px-16 pb-20 sm:py-32 flex justify-center"
+      className="bg-rose-thiny px-4 sm:px-6 md:px-12 lg:px-20 xl:px-28 py-16 sm:py-24 lg:py-36 flex justify-center items-center flex-col"
       id="follow-us"
     >
-      <div className="w-full max-w-6xl flex flex-col items-center text-center relative">
-        {/* OrangeShine SVG en posición superior derecha */}
-        <div className="flex justify-center items-center absolute top-0 right-0 w-1/4 h-1/4 sm:w-1/6 sm:h-1/6 md:w-1/4 md:h-1/4 lg:w-1/5 lg:h-1/5">
-          <OrangeShine className="w-40 sm:w-20 md:w-40 aspect-square" />
-        </div>
+      {/* Brillito decorativo arriba a la derecha */}
+      <div className="flex w-full justify-end items-center mb-4 sm:mb-0">
+        <OrangeShine className="w-20 sm:w-24 md:w-28 lg:w-32 xl:w-36 aspect-square" />
+      </div>
 
+      {/* Contenedor central */}
+      <div className="w-full max-w-6xl flex flex-col items-center text-center relative px-2 sm:px-6">
+        
         {/* Título */}
         <h3
-          id="title"
-          className="text-orange font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight"
+          className="text-orange font-bold text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl mb-6 leading-tight"
         >
           ¡Síguenos!
         </h3>
 
         {/* Texto del botón */}
-        <TangerineRoseButton
-          text={
-            "Nos gusta crear contenido educativo y divertido de acceso público para que sigas aprendiendo y practicando después de clases"
-          }
-        />
+        <div className="">
+          <TangerineRoseButton
+            text="Nos gusta crear contenido educativo y divertido de acceso público para que sigas aprendiendo y practicando después de clases"
+          />
+        </div>
 
         {/* Íconos sociales */}
-        <div className="flex flex-wrap justify-center items-center gap-6 mt-6 scale-150">
+        <div className="flex flex-wrap justify-center items-center gap-8 mt-10">
           <a
             href="https://www.instagram.com/tangerineschool/?hl=es-la"
             target="_blank"
             rel="noreferrer"
             className="transition-transform hover:scale-110"
           >
-            <InstagramIcon className="w-8 sm:w-10 md:w-12 aspect-square" />
+            <InstagramIcon className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" />
           </a>
           <a
             href="https://www.facebook.com/Tangerinenglish"
@@ -48,7 +49,7 @@ export const FollowUs = () => {
             rel="noreferrer"
             className="transition-transform hover:scale-110"
           >
-            <FacebokIcon className="w-8 sm:w-10 md:w-12 aspect-square" />
+            <FacebokIcon className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" />
           </a>
           <a
             href="https://www.tiktok.com/@boytangerine"
@@ -56,17 +57,18 @@ export const FollowUs = () => {
             rel="noreferrer"
             className="transition-transform hover:scale-110"
           >
-            <TiktokIcon className="w-8 sm:w-10 md:w-12 aspect-square" />
+            <TiktokIcon className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" />
           </a>
           <a
-            href="https://www.youtube.com/"
+            href="https://youtube.com/@tangerineschool?si=hiZxuvhQ5ija7c4E"
             target="_blank"
             rel="noreferrer"
             className="transition-transform hover:scale-110"
           >
-            <YoutubeIcon className="w-8 sm:w-10 md:w-12 aspect-square" />
+            <YoutubeIcon className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" />
           </a>
         </div>
+
       </div>
     </article>
   );

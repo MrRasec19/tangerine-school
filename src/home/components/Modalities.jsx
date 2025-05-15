@@ -5,7 +5,7 @@ import Note3 from '../../assets/nota-tangerine3.png';
 export const Modalities = () => {
   return (
     <>
-      <article className="bg-rose-thiny px-4 sm:px-8 md:px-16 py-16" id="modalities">
+      <article className="bg-rose-thiny px-4 sm:px-8 md:px-16 py-24" id="modalities">
         <div className="w-full flex flex-col items-center gap-6 text-center">
           <h3 id="title" className="text-orange font-bold text-4xl md:text-5xl lg:text-6xl">
             Modalidades

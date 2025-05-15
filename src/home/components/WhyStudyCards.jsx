@@ -12,7 +12,7 @@ export default function WhyStudyCards() {
         return (
           <div
             key={card.id}
-            className={`relative bg-white rounded-2xl overflow-hidden flex flex-col justify-between h-[400px] sm:h-[450px] md:h-[500px] lg:h-[520px] xl:h-[540px] cursor-pointer transition-all duration-500 bg-transparent border-0 ${isClicked ? 'border-0 bg-transparent' : 'shadow-lg'}`}
+            className={`relative rounded-2xl overflow-hidden flex flex-col justify-between h-[400px] sm:h-[450px] md:h-[500px] lg:h-[520px] xl:h-[540px] cursor-pointer transition-all duration-500 ${isClicked ? 'border-0 bg-transparent' : 'shadow-lg'} transition-all duration-300 ease-in-out transform hover:scale-105`}
             onClick={() => setClickedCardId(card.id)}
             onMouseLeave={() => setClickedCardId(null)}
           >
@@ -37,16 +37,21 @@ export default function WhyStudyCards() {
             </div>
 
             {/* TARJETA "HOLA" */}
-            <div className={`tangerine-window-container flex justify-center items-center flex-column ${
-              isClicked ? 'opacity-100' : 'opacity-0 pointer-events-none'
+            <div className={`tangerine-window-container absolute top-0 left-0 w-full h-full transition-opacity duration-500 ${
+              isClicked ? 'opacity-100 bg-orange-thiny' : 'opacity-0 pointer-events-none'
             }`}>
-              <div>
-                {card.title}
-              </div>
-              <div>
-                {card.text}
+              <div className="w-full h-full flex items-center justify-center p-6">
+                <div className="text-center w-full max-w-full h-full pt-10 px-4 lg:pt-20 overflow-hidden xl:pt-24">
+                  <h3 className="text-orange text-2xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-4xl xl:mb-5 font-bold break-words">
+                    {card.title}
+                  </h3>
+                  <p className="text-blue-strong text-sm sm:text-base md:text-lg lg:text-lg mt-2 break-words leading-snug font-bold text-left text-pretty px-4 max-h-[60%] overflow-auto max-w-full parraf">
+                    {card.text}
+                  </p>
+                </div>
               </div>
             </div>
+
           </div>
         );
       })}

@@ -1,13 +1,13 @@
 
 import WhyStudyCards from './WhyStudyCards.jsx';
 
-export const WhyStudyWhitUs2 = () => {
+export const WhyStudyWhitUs = () => {
   return (
     <article
       id="why-with-us"
-      className="bg-orange-thiny px-10 py-10"
+      className="bg-orange-thiny px-10 py-16"
     >
-      <h2 className="text-orange text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-10">
+      <h2 className="text-orange text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-16">
         ¿Por qué estudiar con nosotros?
       </h2>
 

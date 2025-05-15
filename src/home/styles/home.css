@@ -197,3 +197,10 @@
     border-bottom: 0px solid transparent;
     border-right: 35px solid #FEF3ED; /* o tu color `blue-strong` */
   }
+
+  @media screen and ( width = 540px ) {
+    .parraf {
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+    }
+  } 
