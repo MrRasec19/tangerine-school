@@ -12,8 +12,8 @@ export default function WhyStudyCards() {
         return (
           <div
             key={card.id}
-            className={`relative rounded-2xl overflow-hidden flex flex-col justify-between h-[400px] sm:h-[450px] md:h-[500px] lg:h-[520px] xl:h-[540px] cursor-pointer transition-all duration-500 ${isClicked ? 'border-0 bg-transparent' : 'shadow-lg'} transition-all duration-300 ease-in-out transform hover:scale-105`}
-            onClick={() => setClickedCardId(card.id)}
+            className={`relative rounded-2xl overflow-hidden flex flex-col justify-between h-[400px] sm:h-[450px] md:h-[500px] lg:h-[520px] xl:h-[540px] transition-all duration-500 ${isClicked ? 'border-0 bg-transparent' : 'shadow-lg'} transition-all duration-300 ease-in-out transform hover:scale-105`}
+            onMouseEnter={() => setClickedCardId(card.id)}
             onMouseLeave={() => setClickedCardId(null)}
           >
             {/* TARJETA ORIGINAL */}

@@ -91,18 +91,24 @@
   
   .animate-slide {
     animation: slide linear infinite;
-    animation-duration: 30s; /* valor por defecto para pantallas grandes */
+    animation-duration: 15s;
+  }
+
+  @media (max-width: 1000px) {
+    .animate-slide {
+      animation-duration: 10s;
+    }
   }
   
   @media (max-width: 768px) {
     .animate-slide {
-      animation-duration: 15s; /* menos duración = más rápido */
+      animation-duration: 8s;
     }
   }
   
   @media (max-width: 480px) {
     .animate-slide {
-      animation-duration: 10s;
+      animation-duration: 6s;
     }
   }
   

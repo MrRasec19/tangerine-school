@@ -32,7 +32,10 @@ export const Navbar = () => {
 
             <div className='w-100 h-14 scale-150 md:pr-5'>
                 {/* <h1 className='text-black'>Tangerine School</h1> */}
-                <Logo className="w-40 h-100 transition-all duration-300 ease-in-out transform hover:scale-105"/>
+                
+                <a href="#why-with-us" onClick={(e) => handleScroll(e, 'home-section')}>
+                    <Logo className="w-40 h-100 transition-all duration-300 ease-in-out transform hover:scale-105"/>
+                </a>
             </div>
 
             <a href="#our-method" onClick={(e) => handleScroll(e, 'our-method')} className='lg-link text-2xl font-bold text-blue-strong transition-all duration-300 ease-in-out transform hover:scale-105'>Método</a>

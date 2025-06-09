@@ -18,7 +18,7 @@ export const Footer = () => {
       <div className="w-full flex flex-col sm:flex-row justify-center items-center sm:justify-around text-center gap-2 sm:gap-0">
         <h4 className="text-orange font-bold text-base sm:text-lg md:text-xl">Aviso de privacidad</h4>
         <h4 className="text-orange font-bold text-base sm:text-lg md:text-xl">Condiciones de servicio</h4>
-        <h4 className="text-orange font-bold text-base sm:text-lg md:text-xl">Tangerine School &copy; {currentYear}</h4>
+        <h4 className="text-orange font-bold text-base sm:text-lg md:text-xl">Tangerine School &reg; {currentYear}</h4>
       </div>
     </footer>
   );
