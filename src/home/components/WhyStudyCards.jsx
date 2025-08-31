@@ -36,16 +36,16 @@ export default function WhyStudyCards() {
               </div>
             </div>
 
-            {/* TARJETA "HOLA" */}
+            {/* VENTANA NARANJA */}
             <div className={`tangerine-window-container absolute top-0 left-0 w-full h-full transition-opacity duration-500 ${
               isClicked ? 'opacity-100 bg-orange-thiny' : 'opacity-0 pointer-events-none'
             }`}>
               <div className="w-full h-full flex items-center justify-center p-6">
-                <div className="text-center w-full max-w-full h-full pt-10 px-4 lg:pt-20 overflow-hidden xl:pt-24">
-                  <h3 className="text-orange text-2xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-4xl xl:mb-5 font-bold break-words">
+                <div className="text-center w-full max-w-full h-full pt-10 xl:px-4 lg:px-4 md:px-9 sm:px-4 sm:py-16 px-32 lg:pt-20 overflow-hidden xl:pt-24 why-card-content">
+                  <h3 className="text-orange text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl xl:mb-5 font-bold break-words">
                     {card.title}
                   </h3>
-                  <p className="text-blue-strong text-sm sm:text-base md:text-lg lg:text-lg mt-2 break-words leading-snug font-bold text-left text-pretty px-4 max-h-[60%] overflow-auto max-w-full parraf">
+                  <p className="text-blue-strong text-sm sm:text-base md:text-lg lg:text-lg mt-2 break-words leading-snug font-bold text-left text-pretty max-h-[60%] overflow-auto max-w-full parraf">
                     {card.text}
                   </p>
                 </div>

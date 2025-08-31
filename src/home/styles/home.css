@@ -209,4 +209,25 @@
         padding-left: 80px !important;
         padding-right: 80px !important;
     }
-  } 
+  }
+
+  @media (max-width: 545px) {
+    .why-card-content {
+        padding-left: 6rem !important;
+        padding-right: 6rem !important;
+    }
+  }
+  @media (max-width: 420px) {
+    .why-card-content {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+  }
+  @media (max-width: 325px) {
+    .why-card-content {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
+    }
+  }
