@@ -8,7 +8,7 @@ export const FAQ = [
     {
         id: 2,
         question: '¿Cuál es el costo del curso?',
-        answer: 'Tenemos tres modalidades diferentes para que elijas la que más te convenga (sin costo de inscripción y material didáctico en PDF incluído): -12 horas al mes (3 horas a la semana o sabatino) $1,200 MXN  -16 horas al mes (4 horas a la semana) $1,450MXN  -20 horas al mes (5 horas a la semana) $1,700 MXN.',
+        answer: 'Tenemos tres modalidades diferentes para que elijas la que más te convenga (sin costo de inscripción y material didáctico en PDF incluído): 12 horas al mes (3 horas a la semana o sabatino) $1,300 MXN  16 horas al mes (4 horas a la semana) $1,500 MXN  20 horas al mes (5 horas a la semana) $1,750 MXN.',
         panel: 'panel2'
     },
     {

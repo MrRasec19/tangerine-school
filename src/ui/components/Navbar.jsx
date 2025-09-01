@@ -46,7 +46,7 @@ export const Navbar = () => {
 
             <a href="#FAQ" onClick={(e) => handleScroll(e, 'FAQ')} className='lg-link text-2xl font-bold text-blue-strong transition-all duration-300 ease-in-out transform hover:scale-105'>FAQ</a>
 
-            <a href="https://api.whatsapp.com/send?phone=+526621998313&text=Hola Mundo" target="_blank" rel="noopener noreferrer" className="lg-link text-orange">
+            <a href="https://api.whatsapp.com/send?phone=+526621998313&text=¡Estás a solo un click  de contactarnos ! 👀🍊✨" target="_blank" rel="noopener noreferrer" className="lg-link text-orange">
                 <WhatsappLogo className="w-20 h-100 text-orange whatsapp-logo transition-all duration-300 ease-in-out transform hover:scale-105" />
             </a>
             
