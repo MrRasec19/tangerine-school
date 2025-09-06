@@ -2,6 +2,8 @@ import { comments } from '../../data/comments.js';
 import { OpinionCard } from './OpinionCard.jsx';
 
 export const StudentsOpinions = () => {
+  const doubledComments = [...comments, ...comments];
+
   return (
     <article id="students-opinions" className="w-full py-28 overflow-hidden">
       <div className="flex justify-center px-4">
@@ -10,18 +12,19 @@ export const StudentsOpinions = () => {
         </p>
       </div>
 
-      <div className="flex gap-6 px-4 sm:px-6 whitespace-nowrap animate-slide hover:[animation-play-state:paused]">
-        {[...comments, ...comments].map((comment, index) => (
-          <div key={`${comment.id}-${index}`} className="inline-block">
-            <OpinionCard
-              comment={comment.comment}
-              name={comment.name}
-              from={comment.from}
-            />
-          </div>
-        ))}
+      <div className="slider">
+        <div className="slide-track">
+          {doubledComments.map((comment, index) => (
+            <div key={`${comment.id}-${index}`} className="inline-block">
+              <OpinionCard
+                comment={comment.comment}
+                name={comment.name}
+                from={comment.from}
+              />
+            </div>
+          ))}
+        </div>
       </div>
-
     </article>
   );
 };

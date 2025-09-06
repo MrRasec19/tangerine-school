@@ -80,38 +80,34 @@
     width: 100px;
 }
 
-@keyframes slide {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-  
-  .animate-slide {
-    animation: slide linear infinite;
-    animation-duration: 15s;
-  }
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  cursor: grab;
+}
 
-  @media (max-width: 1000px) {
-    .animate-slide {
-      animation-duration: 10s;
-    }
+.slide-track {
+  display: flex;
+  gap: 1.5rem;
+  width: max-content;
+  animation: scroll 150s linear infinite;
+  animation-play-state: running;
+  transition: animation-play-state 0.3s easy-in-out;
+}
+
+.slider:hover .slide-track {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
   }
-  
-  @media (max-width: 768px) {
-    .animate-slide {
-      animation-duration: 8s;
-    }
+  100% {
+    transform: translateX(-50%);
   }
-  
-  @media (max-width: 480px) {
-    .animate-slide {
-      animation-duration: 6s;
-    }
-  }
-  
+}
 
 #content{
     overflow: hidden;
