@@ -10,10 +10,6 @@
     position: unset;
 }
 
-#home-section {
-    height: 45rem;
-}
-
 .tangerino {
     position: absolute;
     transform: scale(.6);
@@ -173,10 +169,11 @@
     height: 100%;
 }
 
-#our-method{
-    background-image: url(../../assets/fondo-azul-tangerine.jpg);
-    background-size: cover;
-} 
+#our-method {
+  background-image: url(../../assets/fondo-azul-tangerine.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
 .bubble-tail-left {
     position: absolute;

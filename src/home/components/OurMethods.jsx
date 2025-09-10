@@ -1,12 +1,18 @@
 import TangerineWindow from '../../assets/ventana-tangerine.png';
+import { WaveSeparator } from '../../ui/components/WaveSeparator';
+import fondoAzul from '../../assets/fondo-azul-tangerine.jpg';
 
 export const OurMethods = () => {
   return (
     <>
       <article
-        className="bg-blue-strong px-4 sm:px-6 md:px-10 py-12 sm:py-16 md:py-24 flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-12"
+        className="relative bg-blue-strong px-4 sm:px-6 md:px-10 py-12 sm:py-16 md:py-24 flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-12"
         id="our-method"
       >
+        <div className="absolute top-0 left-0 w-full">
+          <WaveSeparator flip backGroundColor="bg-orange-thiny" imageUrl={fondoAzul} />
+        </div>
+
         {/* Sección de Imagen */}
         <div className="w-full md:w-1/2 flex justify-center md:justify-end">
           <img
@@ -28,10 +34,16 @@ export const OurMethods = () => {
           <p
             id="paragraph"
             className="text-white leading-relaxed 
-                       text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl"
+                       text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-10"
           >
             Nuestro método es muy “Hands on” pero al mismo tiempo integral. Aunque enfocamos nuestra atención particularmente hacia lo conversacional también trabajamos con herramientas de evaluación de lectura, escritura, listening y gramática.
           </p>
+
+
+          {/* Wave inferior */}
+          <div className="absolute bottom-0 left-0 w-full">
+            <WaveSeparator backGroundColor="bg-yellow" imageUrl={fondoAzul} />
+          </div>
         </div>
       </article>
 

@@ -32,7 +32,7 @@ export const WaveSeparator = ({ flip = false, color = '#ffffff', backGroundColor
           )}
         </defs>
         <path
-          d="M0,60 C600,150 600,0 1600,100 L1200,0 L0,0 Z"
+          d="M0,110 C700,100 900,0 1200,70 L1200,0 L0,0 Z"
           fill={imageUrl ? `url(#${patternId})` : color}
         />
       </svg>
