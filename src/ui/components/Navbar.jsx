@@ -1,4 +1,5 @@
 import Logo from "../../assets/LOGO-tangerine.svg?react";
+import MobileLogo from "../../assets/iconito-web-tangerine.png";
 import WhatsappLogo from "../../assets/whatsapp-tangerine.svg?react";
 import '../styles/navbar.css'
 import MenuIcon from '@mui/icons-material/Menu';
@@ -31,10 +32,23 @@ export const Navbar = () => {
         <nav className="w-full space-x-4 flex items-center justify-between py-6 px-20 navigation-bar bg-rose-thiny fixed z-10">
 
             <div className='w-100 h-14 scale-150 md:pr-5'>
-                {/* <h1 className='text-black'>Tangerine School</h1> */}
                 
-                <a href="#why-with-us" onClick={(e) => handleScroll(e, 'home-section')}>
+                {/* Logo Desktop */}
+                <a 
+                    href="#why-with-us" 
+                    onClick={(e) => handleScroll(e, 'home-section')}
+                    className="hidden md:block"
+                >
                     <Logo className="w-40 h-100 transition-all duration-300 ease-in-out transform hover:scale-105"/>
+                </a>
+
+                {/* Logo Mobile */}
+                <a
+                    href="#why-with-us"
+                    onClick={(e) => handleScroll(e, 'home-section')}
+                    className="block md:hidden"
+                >
+                    <img src={ MobileLogo } alt="Logo Mobile" className="w-8 mt-2 h-auto transition-all duration-300 ease-in-out transform hover:scale-105"/>
                 </a>
             </div>
 
