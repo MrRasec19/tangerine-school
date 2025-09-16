@@ -12,9 +12,7 @@ export const HomePage = () => {
       <OurCompromise />
       <WaveSeparator flip color="#FEF3ED" backGroundColor='bg-yellow' />
       <Modalities />
-      <WaveSeparator color="#FEF3ED" backGroundColor='bg-orange-thiny' />
       <StudentsOpinions />
-      <WaveSeparator flip color="#00274E" backGroundColor='bg-orange-thiny' />
       <FrequentlyQuestions />
       <WaveSeparator color="#00274E" backGroundColor='bg-rose-thiny' />
       <FollowUs />

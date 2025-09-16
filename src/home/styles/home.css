@@ -1,6 +1,67 @@
-#students-opinions{
-    background-image: url("../../assets/fondo-rosa-tangerine.jpg");
-    background-size: cover;
+#students-opinions {
+  background-image: url(../../assets/fondo-rosa-tangerine.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+/* Wave Top */
+#students-opinions::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  clip-path: path("M0,10 C 60,40 1280,80 2240,0 L1440,0 L0,0 Z");background-color: #FEF3ED;
+  background-size: cover;
+  z-index: -1;
+}
+
+/* Wave Bottom */
+#students-opinions::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(244 212 125 / var(--tw-bg-opacity));
+  clip-path: path("M0,10 C 60,40 1280,80 2240,0 L1440,0 L0,0 Z");
+  background-color: #00274E;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+
+
+/* === Responsive Adjustments === */
+
+/* Tablets (<=1024px) */
+@media (max-width: 1024px) {
+  #students-opinions::before {
+    clip-path: path("M0,8 C 40,30 720,60 1024,0 L1024,0 L0,0 Z");
+  }
+
+  #students-opinions::after {
+    clip-path: path("M0,8 C 40,30 720,60 1024,0 L1024,0 L0,0 Z");
+  }
+}
+
+/* Mobile (<=768px) */
+@media (max-width: 768px) {
+  #students-opinions::before {
+    height: 60px;
+    clip-path: path("M0,6 C 30,20 480,40 768,0 L768,0 L0,0 Z");
+  }
+
+  #students-opinions::after {
+    height: 60px;
+    clip-path: path("M0,6 C 30,20 480,40 768,0 L768,0 L0,0 Z");
+  }
 }
 
 .iconTangerine {
@@ -162,7 +223,7 @@
 
 .tangerine-window-container {
     background-image: url('../../assets/ventanita-tangerine.svg');
-    background-size: contain; /* o cover, según necesites */
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -173,7 +234,67 @@
   background-image: url(../../assets/fondo-azul-tangerine.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
+  z-index: 1; 
+  overflow: hidden; 
 }
+
+/* Wave Top */
+#our-method::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(255 198 182 / var(--tw-bg-opacity));
+  clip-path: path("M0,10 C 60,40 1280,80 2240,0 L1440,0 L0,0 Z");
+  z-index: -1;
+}
+
+/* Wave Bottom */
+#our-method::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(244 212 125 / var(--tw-bg-opacity));
+  clip-path: path("M0,10 C 60,40 1280,80 2240,0 L1440,0 L0,0 Z");
+  z-index: -1;
+  transform: rotate(180deg);
+}
+
+/* === Responsive Adjustments === */
+
+/* Tablets (<=1024px) */
+@media (max-width: 1024px) {
+  #our-method::before {
+    clip-path: path("M0,8 C 40,30 720,60 1024,0 L1024,0 L0,0 Z");
+  }
+
+  #our-method::after {
+    clip-path: path("M0,8 C 40,30 720,60 1024,0 L1024,0 L0,0 Z");
+  }
+}
+
+/* Mobile (<=768px) */
+@media (max-width: 768px) {
+  #our-method::before {
+    height: 60px;
+    clip-path: path("M0,6 C 30,20 480,40 768,0 L768,0 L0,0 Z");
+  }
+
+  #our-method::after {
+    height: 60px;
+    clip-path: path("M0,6 C 30,20 480,40 768,0 L768,0 L0,0 Z");
+  }
+}
+
+
+
+
 
 .bubble-tail-left {
     position: absolute;
