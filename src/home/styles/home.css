@@ -10,7 +10,7 @@
 }
 
 /* Wave Top */
-#students-opinions::before {
+/* #students-opinions::before {
   content: "";
   position: absolute;
   top: 0;
@@ -22,7 +22,7 @@
   z-index: -1;
 }
 
-/* Wave Bottom */
+
 #students-opinions::after {
   content: "";
   position: absolute;
@@ -37,10 +37,6 @@
   transform: rotate(180deg);
 }
 
-
-/* === Responsive Adjustments === */
-
-/* Tablets (<=1024px) */
 @media (max-width: 1024px) {
   #students-opinions::before {
     clip-path: path("M0,8 C 40,30 720,60 1024,0 L1024,0 L0,0 Z");
@@ -50,8 +46,6 @@
     clip-path: path("M0,8 C 40,30 720,60 1024,0 L1024,0 L0,0 Z");
   }
 }
-
-/* Mobile (<=768px) */
 @media (max-width: 768px) {
   #students-opinions::before {
     height: 60px;
@@ -62,12 +56,12 @@
     height: 60px;
     clip-path: path("M0,6 C 30,20 480,40 768,0 L768,0 L0,0 Z");
   }
-}
+} */
 
 .iconTangerine {
     transform: scale(2.5);
-    right: -10px;
-    top: 15px;
+    right: -25px;
+    top: 5px;
     position: unset;
 }
 
@@ -240,7 +234,7 @@
 }
 
 /* Wave Top */
-#our-method::before {
+/* #our-method::before {
   content: "";
   position: absolute;
   top: -1px;
@@ -251,8 +245,6 @@
   clip-path: path("M0,10 C 60,40 1280,80 2240,0 L1440,0 L0,0 Z");
   z-index: -1;
 }
-
-/* Wave Bottom */
 #our-method::after {
   content: "";
   position: absolute;
@@ -266,9 +258,6 @@
   transform: rotate(180deg);
 }
 
-/* === Responsive Adjustments === */
-
-/* Tablets (<=1024px) */
 @media (max-width: 1024px) {
   #our-method::before {
     clip-path: path("M0,8 C 40,30 720,60 1024,0 L1024,0 L0,0 Z");
@@ -279,7 +268,6 @@
   }
 }
 
-/* Mobile (<=768px) */
 @media (max-width: 768px) {
   #our-method::before {
     height: 60px;
@@ -290,7 +278,7 @@
     height: 60px;
     clip-path: path("M0,6 C 30,20 480,40 768,0 L768,0 L0,0 Z");
   }
-}
+} */
 
 
 

@@ -12,7 +12,9 @@ export default {
         'blue-strong': '#00274E',
         'orange-thiny': '#FFC6B6',
       },
-      
+      fontFamily: {
+        neuwelt: ['Neuwelt', 'sans-serif'],
+      },
     },
   },
   plugins: [],

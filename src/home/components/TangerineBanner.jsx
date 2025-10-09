@@ -1,8 +1,9 @@
 import { IoIosArrowDown } from "react-icons/io";
 import Tangerino from "../../assets/tangerino-grande-tangerine.svg?react";
-import '../styles/home.css'
 import { TangerineButton } from './TangerineButton';
 import { TangerineRoseButton } from "./TangerineRoseButton";
+
+import '../styles/tangerine-banner.css';
 
 export const TangerineBanner = () => {
 
@@ -17,20 +18,21 @@ export const TangerineBanner = () => {
   return (
     <>
       <article className='pb-14 pt-48 px-4 sm:px-8 text-center bg-rose-thiny flex flex-col items-center relative overflow-hidden' id='home-section'>
-        <h1 className='text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-orange leading-tight'>Inglés en línea</h1>
-        <h2 className='text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-blue-strong mb-6 leading-tight'>Clases 100% en vivo</h2>
+        <h1 className='text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold font-neuwelt text-orange leading-tight'>Inglés en línea</h1>
+        <h2 className='btn-blue text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-blue-strong mb-6 leading-tight'>Clases 100% en vivo</h2>
 
-        <div className="w-full max-w-3xl flex flex-col items-center gap-4">
+        <div className="w-full max-w-3xl flex flex-col items-center ">
           <TangerineButton />
           <TangerineRoseButton text="Contáctanos" />
-        </div>
-
-        <h3 className='text-orange font-bold text-xl sm:text-2xl mt-6'>
+          <h3 className='text-orange font-bold text-xl sm:text-2xl mt-2'>
           <a onClick={(e) => handleScroll(e, 'why-with-us')} href="#why-with-us" className="flex flex-col items-center font-black text-2xl sm:text-3xl transition-all duration-300 ease-in-out transform hover:scale-105">
             Quiero saber más
-            <IoIosArrowDown className='mt-1 animate-bounce text-orange text-2xl sm:text-3xl' />
+            <IoIosArrowDown className='mt-1 animate-bounce text-orange text-2xl sm:text-3xl stroke-[20px]' />
           </a>
         </h3>
+        </div>
+
+        
 
         <Tangerino 
           className="
