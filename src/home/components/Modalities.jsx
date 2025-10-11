@@ -7,12 +7,12 @@ export const Modalities = () => {
     <>
       <article className="bg-rose-thiny px-4 sm:px-8 md:px-16 py-24" id="modalities">
         <div className="w-full flex flex-col items-center gap-6 text-center">
-          <h3 id="title" className="text-orange font-bold text-4xl md:text-5xl lg:text-6xl">
+          <h3 id="title" className="text-orange text-4xl md:text-5xl lg:text-6xl font-extrabold">
             Modalidades
           </h3>
           <p
             id="paragraph"
-            className="text-blue-strong text-lg md:text-xl lg:text-2xl font-semibold"
+            className="text-blue-strong text-lg md:text-xl lg:text-2xl font-medium"
           >
             Tenemos tres modalidades diferentes para que elijas la que más te convenga:
           </p>

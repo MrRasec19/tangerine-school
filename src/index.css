@@ -34,6 +34,24 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Neuwelt';
+    src: url('./assets/font/Neuwelt-Medium.ttf') format('truetype'),
+        url('./assets/font/Neuwelt-Medium.woff2') format('woff2'),
+        url('./assets/font/Neuwelt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neuwelt';
+    src: url('./assets/font/Neuwelt-ExtraBold.ttf') format('truetype'),
+        url('./assets/font/Neuwelt-ExtraBold.woff2') format('woff2'),
+        url('./assets/font/Neuwelt-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

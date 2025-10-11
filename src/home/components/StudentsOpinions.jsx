@@ -7,7 +7,7 @@ export const StudentsOpinions = () => {
   return (
     <article id="students-opinions" className="w-full py-28 overflow-hidden">
       <div className="flex justify-center px-4">
-        <p className="text-orange font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center mb-14 leading-tight">
+        <p className="text-orange font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center mb-14 leading-tight">
           ¿Qué opinan nuestros alumnxs?
         </p>
       </div>

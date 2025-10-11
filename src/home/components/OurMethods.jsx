@@ -18,18 +18,17 @@ export const OurMethods = () => {
         </div>
 
         {/* Sección de Texto */}
-        <div className="w-full md:w-1/2 flex flex-col justify-center text-center md:text-left px-2">
+        <div className="md:w-1/2 flex flex-col justify-center items-center xl:items-start lg:items-start md:items-start">
           <h3
             id="title"
-            className="text-orange font-bold mb-4 sm:mb-6 md:mb-10 
-                       text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl"
+            className="text-orange mb-4 sm:mb-6 md:mb-10 
+                       text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-neuwelt font-extrabold"
           >
             Nuestro método
           </h3>
           <p
-            id="paragraph"
             className="text-white leading-relaxed 
-                       text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-10"
+                       text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-10 text-justify xl:w-[29rem] lg:w-[23rem] md:w-[18rem] sm:w-[30rem] w-3/4 hyphens-auto"
           >
             Nuestro método es muy “Hands on” pero al mismo tiempo integral. Aunque enfocamos nuestra atención particularmente hacia lo conversacional también trabajamos con herramientas de evaluación de lectura, escritura, listening y gramática.
           </p>
