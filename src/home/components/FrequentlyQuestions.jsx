@@ -12,7 +12,7 @@ export const FrequentlyQuestions = () => {
           <div className="mb-8 sm:mb-10 md:mb-12 px-2 text-center">
             <h3
               id="title"
-              className="text-orange font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl leading-snug"
+              className="text-orange font-extrabold text-2xl sm:text-4xl md:text-5xl lg:text-6xl leading-snug"
             >
               Frequently asked questions
             </h3>
