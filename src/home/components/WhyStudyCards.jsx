@@ -28,6 +28,7 @@ export default function WhyStudyCards() {
                   src={card.img}
                   alt={card.title}
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="p-4 text-center bg-orange w-full flex items-center justify-center h-1/4">

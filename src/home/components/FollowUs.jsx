@@ -44,7 +44,7 @@ export const FollowUs = () => {
             rel="noreferrer"
             className="transition-transform hover:scale-110"
           >
-            <img className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" src={InstagramIcon} alt="Icono instagram" />
+            <img className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" src={InstagramIcon} alt="Icono instagram" loading="lazy" />
           </a>
           <a
             href="https://www.facebook.com/Tangerinenglish"
@@ -52,7 +52,7 @@ export const FollowUs = () => {
             rel="noreferrer"
             className="transition-transform hover:scale-110"
           >
-            <img className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" src={FacebokIcon} alt="Icono facebook" />
+            <img className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" src={FacebokIcon} alt="Icono facebook" loading="lazy" />
           </a>
           <a
             href="https://www.tiktok.com/@boytangerine"
@@ -60,7 +60,7 @@ export const FollowUs = () => {
             rel="noreferrer"
             className="transition-transform hover:scale-110"
           >
-            <img className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" src={TiktokIcon} alt="Icono tiktok" />
+            <img className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" src={TiktokIcon} alt="Icono tiktok" loading="lazy" />
           </a>
           <a
             href="https://youtube.com/@tangerineschool?si=hiZxuvhQ5ija7c4E"
@@ -68,7 +68,7 @@ export const FollowUs = () => {
             rel="noreferrer"
             className="transition-transform hover:scale-110"
           >
-            <img className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" src={YoutubeIcon} alt="Icono youtube" />
+            <img className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" src={YoutubeIcon} alt="Icono youtube" loading="lazy" />
           </a>
         </div>
 

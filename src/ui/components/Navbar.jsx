@@ -29,7 +29,7 @@ export const Navbar = () => {
 
   return (
     <>
-        <nav className="w-full space-x-4 flex items-center justify-between py-6 px-20 navigation-bar bg-rose-thiny fixed z-10">
+        <nav className="w-full space-x-4 flex items-center justify-between py-6 px-20 navigation-bar bg-rose-thiny fixed z-10" data-aos="zoom-in">
 
             <div className='w-100 h-14 scale-150 md:pr-5'>
                 
@@ -48,7 +48,7 @@ export const Navbar = () => {
                     onClick={(e) => handleScroll(e, 'home-section')}
                     className="block md:hidden"
                 >
-                    <img src={ MobileLogo } alt="Logo Mobile" className="w-8 mt-2 h-auto transition-all duration-300 ease-in-out transform hover:scale-105"/>
+                    <img src={ MobileLogo } alt="Logo Mobile" className="w-8 mt-2 h-auto transition-all duration-300 ease-in-out transform hover:scale-105" loading="lazy"/>
                 </a>
             </div>
 
