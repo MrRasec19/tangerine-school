@@ -1,7 +1,7 @@
-import gato1 from '../assets/gato1.jpg';
-import gato2 from '../assets/gato2.jpg';
-import gato3 from '../assets/gato3.jpg';
-import gato4 from '../assets/gato4.jpg';
+import gato1 from '../assets/gato1.webp';
+import gato2 from '../assets/gato2.webp';
+import gato3 from '../assets/gato3.webp';
+import gato4 from '../assets/gato4.webp';
 
 export const studyWhitUs = [
     {

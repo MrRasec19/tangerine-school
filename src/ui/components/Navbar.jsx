@@ -1,4 +1,4 @@
-import Logo from "../../assets/LOGO-tangerine.svg?react";
+import Logo from "../../assets/LOGO-tangerine.webp";
 import MobileLogo from "../../assets/iconito-web-tangerine.png";
 import WhatsappLogo from "../../assets/whatsapp-tangerine.svg?react";
 import '../styles/navbar.css'
@@ -29,7 +29,7 @@ export const Navbar = () => {
 
   return (
     <>
-        <nav className="w-full space-x-4 flex items-center justify-between py-6 px-20 navigation-bar bg-rose-thiny fixed z-10">
+        <nav className="w-full space-x-4 flex items-center justify-between py-3 px-20 navigation-bar bg-rose-thiny fixed z-10">
 
             <div className='w-100 h-14 scale-150 md:pr-5'>
                 
@@ -41,7 +41,7 @@ export const Navbar = () => {
                     name="logo app"
                     aria-label="logo app"
                 >
-                    <Logo className="w-40 h-100 transition-all duration-300 ease-in-out transform hover:scale-105"/>
+                    <img src={ Logo } alt="Logo Desktop" className="w-40 h-100 transition-all duration-300 ease-in-out transform hover:scale-105" loading="lazy"/>
                 </a>
 
                 {/* Logo Mobile */}
