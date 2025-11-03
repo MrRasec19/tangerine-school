@@ -39,6 +39,7 @@ export const Navbar = () => {
                     onClick={(e) => handleScroll(e, 'home-section')}
                     className="hidden md:block"
                     name="logo app"
+                    aria-label="logo app"
                 >
                     <Logo className="w-40 h-100 transition-all duration-300 ease-in-out transform hover:scale-105"/>
                 </a>
@@ -61,11 +62,11 @@ export const Navbar = () => {
 
             <a href="#FAQ" onClick={(e) => handleScroll(e, 'FAQ')} className='lg-link text-2xl font-black text-blue-strong transition-all duration-300 ease-in-out transform hover:scale-105'>FAQ</a>
 
-            <a href="https://api.whatsapp.com/send?phone=+526621998313&text=¡Estás a solo un click  de contactarnos ! 👀🍊✨" target="_blank" rel="noopener noreferrer" className="lg-link text-orange" name="whatssapp logo">
+            <a href="https://api.whatsapp.com/send?phone=+526621998313&text=¡Estás a solo un click  de contactarnos ! 👀🍊✨" target="_blank" rel="noopener noreferrer" className="lg-link text-orange" name="whatssapp logo" aria-label="whatssapp app">
                 <WhatsappLogo className="w-20 h-100 text-orange whatsapp-logo transition-all duration-300 ease-in-out transform hover:scale-105" />
             </a>
             
-            <button onClick={handleOpenMenu} className="font-black text-blue-strong menuBtn" name="menu icon">
+            <button onClick={handleOpenMenu} className="font-black text-blue-strong menuBtn" name="menu icon" aria-label="menu icon">
                 <MenuIcon/>
             </button>
             
@@ -73,7 +74,7 @@ export const Navbar = () => {
         
         <nav id="sm-nav">
             <div className="menu-header-sm h-9 mb-3">
-                <button onClick={handleCloseMenu} className="p-4 font-black text-blue-strong close-menu-btn" name="close menu icon">
+                <button onClick={handleCloseMenu} className="p-4 font-black text-blue-strong close-menu-btn" name="close menu icon" aria-label="close menu icon">
                     <CloseIcon/>
                 </button>
             </div>
@@ -91,7 +92,7 @@ export const Navbar = () => {
                     <a href="#our-method" onClick={(e) => handleScroll(e, 'FAQ')}>FAQ</a>
                 </div>
                 <div className="p-5 text-center flex justify-center items-center">
-                    <a href="https://api.whatsapp.com/send?phone=+526621998313&text=Hola Mundo" name="whatssapp logo" className="text-orange" target="_blank" rel="noopener noreferrer" onClick={handleCloseMenu}>
+                    <a href="https://api.whatsapp.com/send?phone=+526621998313&text=Hola Mundo" name="whatssapp logo" aria-label="whatssapp logo" className="text-orange" target="_blank" rel="noopener noreferrer" onClick={handleCloseMenu}>
                     <WhatsappLogo className="w-20 h-100 text-orange whatsapp-logo"/>
                     </a>
                 </div>
