@@ -9,7 +9,7 @@ export const OurMethods = () => {
       >
 
         {/* Sección de Imagen */}
-        <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end" data-aos="zoom-in">
           <img
             className="w-3/4 sm:w-2/3 md:w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-auto object-contain"
             src={TangerineWindow}
@@ -18,7 +18,7 @@ export const OurMethods = () => {
         </div>
 
         {/* Sección de Texto */}
-        <div className="md:w-1/2 flex flex-col justify-center items-center xl:items-start lg:items-start md:items-start">
+        <div className="md:w-1/2 flex flex-col justify-center items-center xl:items-start lg:items-start md:items-start" data-aos="fade-up">
           <h3
             id="title"
             className="text-orange mb-4 sm:mb-6 md:mb-10 

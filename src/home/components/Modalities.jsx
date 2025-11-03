@@ -6,7 +6,7 @@ export const Modalities = () => {
   return (
     <>
       <article className="bg-rose-thiny px-4 sm:px-8 md:px-16 py-24" id="modalities">
-        <div className="w-full flex flex-col items-center gap-6 text-center">
+        <div className="w-full flex flex-col items-center gap-6 text-center" data-aos="zoom-in">
           <h3 id="title" className="text-orange text-4xl md:text-5xl lg:text-6xl font-extrabold">
             Modalidades
           </h3>
@@ -18,7 +18,7 @@ export const Modalities = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-12" data-aos="fade-up">
           <div className="w-full flex flex-col items-center justify-center">
             <img className="card-spin" src={Note} alt="Modalidad 12 horas" />
           </div>

@@ -14,7 +14,7 @@ export const OurCompromise = () => {
           </div>
 
           {/* Título */}
-          <div className="sm:col-start-4 sm:col-end-12 xl:col-start-4 xl:col-end-11 lg:col-start-4 lg:col-end-11 md:col-start-4 md:col-end-11 text-center sm:text-left">
+          <div className="sm:col-start-4 sm:col-end-12 xl:col-start-4 xl:col-end-11 lg:col-start-4 lg:col-end-11 md:col-start-4 md:col-end-11 text-center sm:text-left" data-aos="zoom-in">
             <h3
               id="title"
               className="text-orange text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold"
@@ -24,7 +24,7 @@ export const OurCompromise = () => {
           </div>
 
           {/* Párrafo */}
-          <div className="sm:col-start-2 sm:col-end-12 px-2 sm:px-0">
+          <div className="sm:col-start-2 sm:col-end-12 px-2 sm:px-0" data-aos="fade-up">
             <p
               id="paragraph"
               className="text-blue-strong text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed font-medium text-justify hyphens-auto"
@@ -34,7 +34,7 @@ export const OurCompromise = () => {
           </div>
 
           {/* Botón con animación */}
-          <div className="lg:col-start-4 lg:col-end-12 md:col-start-4 md:col-end-10 sm:col-start-3 sm:col-end-12 flex justify-center sm:justify-start px-4 sm:px-0">
+          <div className="lg:col-start-4 lg:col-end-12 md:col-start-4 md:col-end-10 sm:col-start-3 sm:col-end-12 flex justify-center sm:justify-start px-4 sm:px-0" data-aos="fade-up">
             <a 
               href="https://api.whatsapp.com/send?phone=+526621998313&text=Hola Mundo"
               target="_blank"

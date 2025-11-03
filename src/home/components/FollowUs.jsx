@@ -9,14 +9,15 @@ export const FollowUs = () => {
     <article
       className="bg-rose-thiny px-4 sm:px-6 md:px-12 lg:px-20 xl:px-28 py-16 sm:py-24 lg:py-36 flex justify-center items-center flex-col"
       id="follow-us"
+      data-aos="fade-up"
     >
       {/* Brillito decorativo arriba a la derecha */}
-      <div className="flex w-full justify-end items-center mb-4 sm:mb-0">
+      <div className="flex w-full justify-end items-center mb-4 sm:mb-0" data-aos="zoom-in">
         <OrangeShine className="w-20 sm:w-24 md:w-28 lg:w-32 xl:w-36 aspect-square" />
       </div>
 
       {/* Contenedor central */}
-      <div className="w-full max-w-6xl flex flex-col items-center text-center relative px-2 sm:px-6">
+      <div className="w-full max-w-6xl flex flex-col items-center text-center relative px-2 sm:px-6" data-aos="zoom-in">
         
         {/* Título */}
         <h3

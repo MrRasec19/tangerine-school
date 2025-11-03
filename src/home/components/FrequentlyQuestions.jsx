@@ -6,10 +6,11 @@ export const FrequentlyQuestions = () => {
       <article
         className="bg-blue-strong px-4 sm:px-6 md:px-10 py-16 sm:py-24 md:py-40"
         id="FAQ"
+        data-aos="fade-up"
       >
         <div className="flex flex-col justify-center items-center">
           {/* Título */}
-          <div className="mb-8 sm:mb-10 md:mb-12 px-2 text-center">
+          <div className="mb-8 sm:mb-10 md:mb-12 px-2 text-center" data-aos="zoom-in">
             <h3
               id="title"
               className="text-orange font-extrabold text-2xl sm:text-4xl md:text-5xl lg:text-6xl leading-snug"
@@ -19,7 +20,7 @@ export const FrequentlyQuestions = () => {
           </div>
 
           {/* Acordeón */}
-          <div className="w-full sm:w-4/5 md:w-3/5 px-2 sm:px-0">
+          <div className="w-full sm:w-4/5 md:w-3/5 px-2 sm:px-0" data-aos="fade-up">
             <AccordionQuestions />
           </div>
         </div>
