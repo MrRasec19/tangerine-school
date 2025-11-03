@@ -6,7 +6,7 @@ export const FrequentlyQuestions = () => {
       <article
         className="bg-blue-strong px-4 sm:px-6 md:px-10 py-16 sm:py-24 md:py-40"
         id="FAQ"
-        data-aos="fade-up"
+        
       >
         <div className="flex flex-col justify-center items-center">
           {/* Título */}

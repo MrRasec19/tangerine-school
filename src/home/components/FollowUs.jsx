@@ -9,7 +9,7 @@ export const FollowUs = () => {
     <article
       className="bg-rose-thiny px-4 sm:px-6 md:px-12 lg:px-20 xl:px-28 py-16 sm:py-24 lg:py-36 flex justify-center items-center flex-col"
       id="follow-us"
-      data-aos="fade-up"
+      
     >
       {/* Brillito decorativo arriba a la derecha */}
       <div className="flex w-full justify-end items-center mb-4 sm:mb-0" data-aos="zoom-in">
@@ -17,17 +17,18 @@ export const FollowUs = () => {
       </div>
 
       {/* Contenedor central */}
-      <div className="w-full max-w-6xl flex flex-col items-center text-center relative px-2 sm:px-6" data-aos="zoom-in">
+      <div className="w-full max-w-6xl flex flex-col items-center text-center relative px-2 sm:px-6" >
         
         {/* Título */}
         <h3
           className="text-orange font-extrabold text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl mb-16 leading-tight"
+          data-aos="zoom-in"
         >
           ¡Síguenos!
         </h3>
 
         {/* Texto */}
-        <div className="text-orange font-extrabold text-center hyphens-auto xl:text-3xl lg:text-3xl md:text-3xl sm:text-2xl text-xl">
+        <div className="text-orange font-extrabold text-center hyphens-auto xl:text-3xl lg:text-3xl md:text-3xl sm:text-2xl text-xl" data-aos="fade-up">
           <span className="inline">
             Nos gusta crear contenido educativo y divertido de acceso público
           </span>
@@ -37,7 +38,7 @@ export const FollowUs = () => {
         </div>
 
         {/* Íconos sociales */}
-        <div className="flex flex-wrap justify-center items-center gap-8 mt-10">
+        <div className="flex flex-wrap justify-center items-center gap-8 mt-10" data-aos="fade-up">
           <a
             href="https://www.instagram.com/tangerineschool/?hl=es-la"
             target="_blank"

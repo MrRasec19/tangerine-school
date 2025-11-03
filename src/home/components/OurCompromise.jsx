@@ -9,7 +9,7 @@ export const OurCompromise = () => {
       >
         <div className="grid grid-cols-1 sm:grid-cols-12 gap-y-8 sm:gap-y-12 w-full max-w-6xl grid-flow-row">
           {/* White Shine Icon */}
-          <div className="sm:col-start-11 sm:col-end-12 flex justify-end">
+          <div className="sm:col-start-11 sm:col-end-12 flex justify-end" data-aos="zoom-in">
             <WhiteShine id="white-shine" className="w-10 h-10 sm:w-12 sm:h-12 text-white mr-10" />
           </div>
 

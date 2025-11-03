@@ -29,7 +29,7 @@ export const Navbar = () => {
 
   return (
     <>
-        <nav className="w-full space-x-4 flex items-center justify-between py-6 px-20 navigation-bar bg-rose-thiny fixed z-10" data-aos="zoom-in">
+        <nav className="w-full space-x-4 flex items-center justify-between py-6 px-20 navigation-bar bg-rose-thiny fixed z-10">
 
             <div className='w-100 h-14 scale-150 md:pr-5'>
                 

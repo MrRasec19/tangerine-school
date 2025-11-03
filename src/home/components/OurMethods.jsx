@@ -1,4 +1,4 @@
-import TangerineWindow from '../../assets/ventana-tangerine.png';
+import TangerineWindow from '../../assets/ventana-tangerine.webp';
 
 export const OurMethods = () => {
   return (
