@@ -30,7 +30,7 @@ export default function WhyStudyCards() {
                   loading="lazy"
                 />
               </div>
-              <div data-aos="faded-up" className="p-4 text-center bg-orange w-full flex items-center justify-center h-1/4">
+              <div className="p-4 text-center bg-orange w-full flex items-center justify-center h-1/4">
                 <h3 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl text-blue-strong font-semibold">
                   {card.title}
                 </h3>

@@ -2,15 +2,7 @@
 import { OurMethods } from '../components/OurMethods'
 import { TangerineBanner, WhyStudyWhitUs, Modalities, OurCompromise, FrequentlyQuestions, FollowUs, StudentsOpinions } from '../index'
 
-import 'aos/dist/aos.css';
-import AOS from 'aos';
-import { useEffect } from 'react';
-
 export const HomePage = () => {
-
-  useEffect(() => {
-    AOS.init({ duration: 1000, once: true });
-  }, []);
 
   return (
     <main>
