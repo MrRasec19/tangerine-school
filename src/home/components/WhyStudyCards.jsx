@@ -21,9 +21,8 @@ export default function WhyStudyCards() {
               className={`absolute top-0 left-0 w-full h-full flex flex-col justify-content-center transition-opacity duration-500 ${
                 isClicked ? 'opacity-0 pointer-events-none' : 'opacity-100'
               }`}
-              data-aos="fade-up"
             >
-              <div className="h-3/4">
+              <div className="h-3/4" data-aos="fade-up">
                 <img
                   src={card.img}
                   alt={card.title}
