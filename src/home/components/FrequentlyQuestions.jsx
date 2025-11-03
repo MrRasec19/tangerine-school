@@ -10,7 +10,7 @@ export const FrequentlyQuestions = () => {
       >
         <div className="flex flex-col justify-center items-center">
           {/* Título */}
-          <div className="mb-8 sm:mb-10 md:mb-12 px-2 text-center" data-aos="zoom-in">
+          <div className="mb-8 sm:mb-10 md:mb-12 px-2 text-center" >
             <h3
               id="title"
               className="text-orange font-extrabold text-2xl sm:text-4xl md:text-5xl lg:text-6xl leading-snug"
@@ -20,7 +20,7 @@ export const FrequentlyQuestions = () => {
           </div>
 
           {/* Acordeón */}
-          <div className="w-full sm:w-4/5 md:w-3/5 px-2 sm:px-0" data-aos="fade-up">
+          <div className="w-full sm:w-4/5 md:w-3/5 px-2 sm:px-0" >
             <AccordionQuestions />
           </div>
         </div>

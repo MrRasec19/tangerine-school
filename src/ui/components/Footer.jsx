@@ -8,10 +8,10 @@ export const Footer = () => {
 
   return (
     <footer className="w-full bg-white relative px-6 sm:px-10 pt-12 pb-6">
-      <div className="flex justify-center mb-6" data-aos="zoom-in">
+      <div className="flex justify-center mb-6" >
         <IconTangerine className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 iconTangerineFooter" />
       </div>
-      <div data-aos="zoom-in" className="flex flex-col sm:flex-row sm:gap-28 justify-center gap-10">
+      <div  className="flex flex-col sm:flex-row sm:gap-28 justify-center gap-10">
         <ContactInfo />
         <ScheduleInfo />
       </div>

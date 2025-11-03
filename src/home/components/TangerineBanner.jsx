@@ -19,12 +19,12 @@ export const TangerineBanner = () => {
     <>
       <article className='pb-14 pt-48 px-4 sm:px-8 text-center bg-rose-thiny flex flex-col items-center relative overflow-hidden' id='home-section'>
 
-        <div className="w-full max-w-3xl flex flex-col items-center mb-3" data-aos="zoom-in" >
+        <div className="w-full max-w-3xl flex flex-col items-center mb-3"  >
           <h1 className='text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold font-neuwelt text-orange leading-tight' >Inglés en línea</h1>
-          <h2 className='xl:w-full lg:w-full md:w-10/12 sm:w-10/12 btn-blue text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-blue-strong leading-tight' data-aos="zoom-in">Clases 100% en vivo</h2>
+          <h2 className='xl:w-full lg:w-full md:w-10/12 sm:w-10/12 btn-blue text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-blue-strong leading-tight' >Clases 100% en vivo</h2>
         </div>
 
-        <div data-aos="zoom-in" className="w-full max-w-4xl flex flex-col items-center">
+        <div  className="w-full max-w-4xl flex flex-col items-center">
           <TangerineButton />
           <TangerineRoseButton text="Contáctanos" />
           <h3 className='text-orange font-bold text-xl sm:text-2xl mt-2'>
@@ -44,7 +44,7 @@ export const TangerineBanner = () => {
             w-36 sm:w-48 md:w-64 lg:w-80 xl:w-[28rem]
             h-auto pointer-events-none select-none
           " 
-          data-aos="zoom-in"
+          
         />
       </article>
     </>

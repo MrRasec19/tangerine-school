@@ -22,7 +22,7 @@ export default function WhyStudyCards() {
                 isClicked ? 'opacity-0 pointer-events-none' : 'opacity-100'
               }`}
             >
-              <div className="h-3/4" data-aos="fade-up">
+              <div className="h-3/4" >
                 <img
                   src={card.img}
                   alt={card.title}
