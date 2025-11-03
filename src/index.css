@@ -5,6 +5,7 @@
         url('./assets/font/Neuwelt-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 }
 
 
@@ -15,6 +16,7 @@
         url('./assets/font/Neuwelt-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -24,6 +26,7 @@
         url('./assets/font/Neuwelt-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -33,6 +36,7 @@
         url('./assets/font/Neuwelt-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -42,6 +46,7 @@
         url('./assets/font/Neuwelt-ExtraBold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
+    font-display: swap;
 }
 
 @tailwind base;
