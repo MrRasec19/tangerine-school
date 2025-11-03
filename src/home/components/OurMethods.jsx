@@ -22,13 +22,13 @@ export const OurMethods = () => {
           <h3
             id="title"
             className="text-orange mb-4 sm:mb-6 md:mb-10 
-                       text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-neuwelt font-extrabold"
+                       text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold"
           >
             Nuestro método
           </h3>
           <p
             className="text-white leading-relaxed 
-                       text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-10 text-justify xl:w-[29rem] lg:w-[23rem] md:w-[18rem] sm:w-[30rem] w-3/4 hyphens-auto"
+                       text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-10 text-justify xl:w-[29rem] lg:w-[23rem] md:w-[18rem] sm:w-[30rem] w-3/4 hyphens-auto font-normal"
           >
             Nuestro método es muy “Hands on” pero al mismo tiempo integral. Aunque enfocamos nuestra atención particularmente hacia lo conversacional también trabajamos con herramientas de evaluación de lectura, escritura, listening y gramática.
           </p>

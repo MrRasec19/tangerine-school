@@ -1,9 +1,8 @@
 import OrangeShine from "../../assets/brillito-naranja-tangerine.svg?react";
-import FacebokIcon from "../../assets/icono-facebook-tangerine.svg?react";
-import InstagramIcon from "../../assets/icono-instagram-tangerine.svg?react";
-import YoutubeIcon from "../../assets/icono-youtube-tangerine.svg?react";
-import TiktokIcon from "../../assets/icono-tiktok-tangerine.svg?react";
-import { TangerineRoseButton } from "./TangerineRoseButton";
+import FacebokIcon from "../../assets/icono-facebook-tangerine.png";
+import InstagramIcon from "../../assets/icono-instagram-tangerine.png";
+import YoutubeIcon from "../../assets/icono-youtube-tangerine.png";
+import TiktokIcon from "../../assets/icono-tiktok-tangerine.png"
 
 export const FollowUs = () => {
   return (
@@ -21,16 +20,19 @@ export const FollowUs = () => {
         
         {/* Título */}
         <h3
-          className="text-orange font-bold text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl mb-6 leading-tight"
+          className="text-orange font-extrabold text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl mb-16 leading-tight"
         >
           ¡Síguenos!
         </h3>
 
-        {/* Texto del botón */}
-        <div className="">
-          <TangerineRoseButton
-            text="Nos gusta crear contenido educativo y divertido de acceso público para que sigas aprendiendo y practicando después de clases"
-          />
+        {/* Texto */}
+        <div className="text-orange font-extrabold text-center hyphens-auto xl:text-3xl lg:text-3xl md:text-3xl sm:text-2xl text-xl">
+          <span className="inline">
+            Nos gusta crear contenido educativo y divertido de acceso público
+          </span>
+          <span className="block">
+            para que sigas aprendiendo y practicando después de clases
+          </span>
         </div>
 
         {/* Íconos sociales */}
@@ -41,7 +43,7 @@ export const FollowUs = () => {
             rel="noreferrer"
             className="transition-transform hover:scale-110"
           >
-            <InstagramIcon className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" />
+            <img className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" src={InstagramIcon} alt="Icono instagram" />
           </a>
           <a
             href="https://www.facebook.com/Tangerinenglish"
@@ -49,7 +51,7 @@ export const FollowUs = () => {
             rel="noreferrer"
             className="transition-transform hover:scale-110"
           >
-            <FacebokIcon className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" />
+            <img className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" src={FacebokIcon} alt="Icono facebook" />
           </a>
           <a
             href="https://www.tiktok.com/@boytangerine"
@@ -57,7 +59,7 @@ export const FollowUs = () => {
             rel="noreferrer"
             className="transition-transform hover:scale-110"
           >
-            <TiktokIcon className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" />
+            <img className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" src={TiktokIcon} alt="Icono tiktok" />
           </a>
           <a
             href="https://youtube.com/@tangerineschool?si=hiZxuvhQ5ija7c4E"
@@ -65,7 +67,7 @@ export const FollowUs = () => {
             rel="noreferrer"
             className="transition-transform hover:scale-110"
           >
-            <YoutubeIcon className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" />
+            <img className="w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 aspect-square" src={YoutubeIcon} alt="Icono youtube" />
           </a>
         </div>
 

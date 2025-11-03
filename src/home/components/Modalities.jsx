@@ -20,13 +20,13 @@ export const Modalities = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-12">
           <div className="w-full flex flex-col items-center justify-center">
-            <img className="card-spin" src={Note} alt="" />
+            <img className="card-spin" src={Note} alt="Modalidad 12 horas" />
           </div>
           <div className="w-full flex flex-col items-center justify-center">
-            <img className="card-spin" src={Note2} alt="" />
+            <img className="card-spin" src={Note2} alt="Modalidad 16 horas" />
           </div>
           <div className="w-full flex flex-col items-center justify-center">
-            <img className="card-spin" src={Note3} alt="" />
+            <img className="card-spin" src={Note3} alt="Modalidad 20 horas" />
           </div>
         </div>
       </article>
