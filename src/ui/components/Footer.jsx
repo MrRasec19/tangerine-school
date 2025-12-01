@@ -8,16 +8,48 @@ export const Footer = () => {
 
   return (
     <footer className="w-full bg-white relative px-6 sm:px-10 pt-12 pb-6">
-      <div className="flex justify-center mb-6" >
-        <IconTangerine className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 iconTangerineFooter" />
+
+      {/* Ícono superior */}
+      <div className="flex justify-center sm:mb-6">
+        <IconTangerine
+          className="
+            w-8 h-8 
+            sm:w-14 sm:h-14 
+            lg:w-16 lg:h-16 
+            iconTangerineFooter 
+            right-40 top-[-15px]
+          "
+        />
       </div>
-      <div  className="flex flex-col sm:flex-row sm:gap-28 justify-center gap-10">
+
+      {/* Secciones de contacto / horario */}
+      <div className="flex flex-col sm:flex-row sm:gap-28 justify-center gap-8">
+
+        {/* Ambos componentes ya están optimizados individualmente */}
         <ContactInfo />
         <ScheduleInfo />
+
       </div>
-      <div className="w-full flex flex-col sm:flex-row justify-center items-center sm:justify-around text-center gap-2 sm:gap-0 mt-14" >
-        <h4 className="text-orange font-extrabold text-base sm:text-lg md:text-xl">Tangerine School &reg; {currentYear}</h4>
+
+      {/* Texto final del copyright */}
+      <div
+        className="
+          w-full flex flex-col sm:flex-row 
+          justify-center sm:justify-around 
+          items-center text-center 
+          gap-2 sm:gap-0 mt-14
+        "
+      >
+        <h4
+          className="
+            text-orange font-extrabold
+            text-sm sm:text-base md:text-lg lg:text-xl   /* Escalado suave */
+          "
+        >
+          Tangerine School &reg; {currentYear}
+        </h4>
       </div>
+
     </footer>
   );
 };
