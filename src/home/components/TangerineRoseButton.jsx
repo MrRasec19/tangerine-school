@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 export const TangerineRoseButton = ({ text }) => {
   return (
     <a
-      href="https://api.whatsapp.com/send?phone=+526621998313&text=Hola Mundo"
+      href="https://api.whatsapp.com/send?phone=+526621998313&text=¡Estás a solo un click  de contactarnos ! 👀🍊✨"
       target="_blank"
       rel="noopener noreferrer"
       className="md:w-full sm:w-auto mt-5"
