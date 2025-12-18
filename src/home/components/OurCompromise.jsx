@@ -1,4 +1,5 @@
 import WhiteShine from "../../assets/brillito-blanco-tangerine.svg?react";
+import {  whatsappLink } from '../../data'
 
 export const OurCompromise = () => {
   return (
@@ -57,7 +58,7 @@ export const OurCompromise = () => {
           {/* Botón optimizado y alineado para mobile y desktop */}
           <div className="mt-6 sm:mt-0 lg:col-start-4 lg:col-end-12 md:col-start-4 md:col-end-10 sm:col-start-3 sm:col-end-12 flex justify-center sm:justify-start px-4 sm:px-0">
             <a
-              href="https://api.whatsapp.com/send?phone=+526621998313&text=¡Estás a solo un click  de contactarnos ! 👀🍊✨"
+              href={ whatsappLink }
               target="_blank"
               rel="noopener noreferrer"
             >

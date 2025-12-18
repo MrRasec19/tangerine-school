@@ -1,9 +1,11 @@
 import Logo from "../../assets/LOGO-tangerine.webp";
 import WhatsappLogo from "../../assets/whatsapp-tangerine.svg?react";
+import {  whatsappLink } from '../../data'
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 
 export const Navbar = () => {
+  
   const handleScroll = (event, sectionId) => {
     event.preventDefault();
     const section = document.getElementById(sectionId);
@@ -80,7 +82,7 @@ export const Navbar = () => {
 
         {/* WHATSAPP DESKTOP */}
         <a
-          href="https://api.whatsapp.com/send?phone=+526621998313&text=¡Estás a solo un click  de contactarnos ! 👀🍊✨"
+          href={whatsappLink}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="whatsapp link"
@@ -93,7 +95,7 @@ export const Navbar = () => {
         <div className="flex lg:hidden items-center gap-4">
           {/* WhatsApp ICON MOBILE */}
           <a
-            href="https://api.whatsapp.com/send?phone=+526621998313&text=¡Estás a solo un click  de contactarnos ! 👀🍊✨"
+            href={whatsappLink}
             aria-label="whatsapp mobile"
             target="_blank"
             rel="noopener noreferrer"

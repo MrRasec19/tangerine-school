@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
+import {  whatsappLink } from '../../data'
 
 export const TangerineRoseButton = ({ text }) => {
   return (
     <a
-      href="https://api.whatsapp.com/send?phone=+526621998313&text=¡Estás a solo un click  de contactarnos ! 👀🍊✨"
+      href={ whatsappLink }
       target="_blank"
       rel="noopener noreferrer"
       className="md:w-full sm:w-auto mt-5"
