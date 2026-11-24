@@ -1,7 +1,7 @@
-import gato1 from '../assets/gato1.jpg';
-import gato2 from '../assets/gato2.jpg';
-import gato3 from '../assets/gato3.jpg';
-import gato4 from '../assets/gato4.jpg';
+import gato1 from '../assets/why-us/why-us-01.svg';
+import gato2 from '../assets/why-us/why-us-02.svg';
+import gato3 from '../assets/why-us/why-us-03.svg';
+import gato4 from '../assets/why-us/why-us-04.svg';
 
 export const studyWhitUs = [
     {

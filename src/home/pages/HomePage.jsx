@@ -1,17 +1,27 @@
-import { OurMethods } from '../components/OurMethods'
-import { TangerineBanner, WhyStudyWhitUs, Modalities, OurCompromise, FrequentlyQuestions, FollowUs, StudentsOpinions } from '../index'
+import { OurMethods } from '../components/OurMethods';
+import {
+	TangerineBanner,
+	WhyStudyWhitUs,
+	Modalities,
+	OurCompromise,
+	FrequentlyQuestions,
+	InstagramPosts,
+	FollowUs,
+	StudentsOpinions,
+} from '../index';
 
 export const HomePage = () => {
-  return (
-    <main>
-      <TangerineBanner />
-      <WhyStudyWhitUs />
-      <OurMethods />
-      <OurCompromise />
-      <Modalities />
-      <StudentsOpinions />
-      <FrequentlyQuestions />
-      <FollowUs />
-    </main>
-  )
-}
+	return (
+		<main>
+			<TangerineBanner />
+			<WhyStudyWhitUs />
+			<OurMethods />
+			<OurCompromise />
+			<Modalities />
+			<StudentsOpinions />
+			<FrequentlyQuestions />
+			<FollowUs />
+			<InstagramPosts />
+		</main>
+	);
+};
